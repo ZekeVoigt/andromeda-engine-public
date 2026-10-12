@@ -1,0 +1,59 @@
+diff --git a/out/chart.png b/out/chart.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..7d4afd37d8fe79a880f689e00a1f4a63dadb27d7
+GIT binary patch
+literal 121
+zcmeAS@N?(olHy`uVBq!ia0vp^20*O9!2~34Z_DupQVyOjjv*Dd-kv+i$)Lc)e4y{K
+zkKglUR!x67*2bJLZt0HIVZ0(@@@$tF2geE{jsN^C5O9V0OCCSV7ugpKYp(J?IeXWv
+Q7iboPr>mdKI;Vst0P8*_!~g&Q
+
+literal 0
+HcmV?d00001
+
+diff --git a/out/clean.csv b/out/clean.csv
+new file mode 100644
+index 0000000..186b06b
+--- /dev/null
++++ b/out/clean.csv
+@@ -0,0 +1,4 @@
++name,email,amount
++Ada Lovelace,ada@example.org,12.50
++Cy Coder,cy@example.org,3.00
++Eve Edge,eve@example.org,10.00
+diff --git a/out/report.md b/out/report.md
+new file mode 100644
+index 0000000..8e456c0
+--- /dev/null
++++ b/out/report.md
+@@ -0,0 +1,8 @@
++# Summary
++
++raw.csv held 7 rows and a TOTAL line. One duplicate and two rows with a blank email were
++dropped, leaving 3.
++
++## Totals
++
++The 3 clean rows total 25.50.
+diff --git a/out/summary.json b/out/summary.json
+new file mode 100644
+index 0000000..2e9622c
+--- /dev/null
++++ b/out/summary.json
+@@ -0,0 +1 @@
++{"rows": 3, "total": 25.5, "names": ["Ada Lovelace", "Cy Coder", "Eve Edge"]}
+diff --git a/raw.csv b/raw.csv
+index a736e0c..186b06b 100644
+--- a/raw.csv
++++ b/raw.csv
+@@ -1,8 +1,4 @@
+ name,email,amount
+-Ada Lovelace,ada@example.org, 12.50
+-Bob Byte,,7.25
+-Ada Lovelace,ada@example.org, 12.50
+-Cy Coder, cy@example.org ,3.00 
+-Dee Debug,  ,  4.75
+-Eve Edge,eve@example.org,10
+-TOTAL,,50.00
++Ada Lovelace,ada@example.org,12.50
++Cy Coder,cy@example.org,3.00
++Eve Edge,eve@example.org,10.00

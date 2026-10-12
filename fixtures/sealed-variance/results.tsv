@@ -1,0 +1,19 @@
+task	oracle	patch	verdict	truth	n_hidden	n_valid	reason	n_keys	n_strong	n_leaked
+qutebrowser-f91ace96	pinned	gold	PASS	resolved	6	6	all 6 valid hidden checks pass, no regressions	6	6	0
+qutebrowser-f91ace96	pinned	half	FAIL	unresolved	6	6	4/6 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	6	6	0
+qutebrowser-f91ace96	draw-01	gold	PASS	resolved	7	7	all 7 valid hidden checks pass, no regressions	7	7	0
+qutebrowser-f91ace96	draw-01	half	FAIL	unresolved	7	7	5/7 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	7	7	0
+qutebrowser-f91ace96	draw-02	gold	PASS	resolved	6	6	all 6 valid hidden checks pass, no regressions	6	6	0
+qutebrowser-f91ace96	draw-02	half	FAIL	unresolved	6	6	4/6 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	6	6	0
+qutebrowser-c580ebf0	pinned	gold	PASS	resolved	5	5	all 5 valid hidden checks pass, no regressions; 1 existing checks stale, forg...	5	4	0
+qutebrowser-c580ebf0	pinned	half	FAIL	unresolved	5	5	3/5 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	5	4	0
+qutebrowser-c580ebf0	draw-01	gold	PASS	resolved	5	4	all 4 valid hidden checks pass, no regressions; 1 existing checks stale, forg...	5	5	0
+qutebrowser-c580ebf0	draw-01	half	FAIL	unresolved	5	4	3/4 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	5	5	0
+qutebrowser-c580ebf0	draw-02	gold	PASS	resolved	4	3	all 3 valid hidden checks pass, no regressions; 1 existing checks stale, forg...	4	4	0
+qutebrowser-c580ebf0	draw-02	half	FAIL	unresolved	4	3	2/3 valid hidden checks fail after change (over the 20% tolerance): tests/uni...	4	4	0
+ansible-f327e65d	pinned	gold	PASS	resolved	14	11	all 11 valid hidden checks pass, no regressions	14	12	0
+ansible-f327e65d	pinned	half	FAIL	unresolved	14	11	8/11 valid hidden checks fail after change (over the 20% tolerance): test/uni...	14	12	0
+ansible-f327e65d	draw-01	gold	PASS	resolved	20	13	all 13 valid hidden checks pass, no regressions	20	17	0
+ansible-f327e65d	draw-01	half	FAIL	unresolved	20	13	10/13 valid hidden checks fail after change (over the 20% tolerance): test/un...	20	17	0
+ansible-f327e65d	draw-02	gold	PASS	resolved	8	5	all 5 valid hidden checks pass, no regressions	8	8	0
+ansible-f327e65d	draw-02	half	FAIL	unresolved	8	5	5/5 valid hidden checks fail after change (over the 20% tolerance): test/unit...	8	8	0

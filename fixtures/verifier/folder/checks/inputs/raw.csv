@@ -1,0 +1,8 @@
+name,email,amount
+Ada Lovelace,ada@example.org, 12.50
+Bob Byte,,7.25
+Ada Lovelace,ada@example.org, 12.50
+Cy Coder, cy@example.org ,3.00 
+Dee Debug,  ,  4.75
+Eve Edge,eve@example.org,10
+TOTAL,,50.00

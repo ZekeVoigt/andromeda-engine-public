@@ -1,0 +1,16 @@
+{
+  "on": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "checks": [
+    {
+      "name": "slugify_sealed",
+      "expect": "change",
+      "run": "PYTHONPATH=/app/lib python -c 'import json; from ansible.module_utils.common.text.slugify import slugify; print(json.dumps([slugify(s) for s in [u\"Zo\\u00eb Quixote, 1605!\", u\"Cr\\u00e8me Br\\u00fbl\\u00e9e\", u\"Na\\u00efve  Fa\\u00e7ade\", u\"__\\u00d8resund_Bridge__\", u\"Ma\\u00f1ana: D\\u00eda 42\", u\"\\u00c5ngstr\\u00f6m Units\"]]))'",
+      "expected_stdout": "[\"zoe-quixote-1605\", \"creme-brulee\", \"naive-facade\", \"resund-bridge\", \"manana-dia-42\", \"angstrom-units\"]"
+    },
+    {
+      "name": "keep_converters",
+      "expect": "keep",
+      "run": "PYTHONPATH=/app/lib python -c \"from ansible.module_utils.common.text.converters import to_text; assert to_text(b'caf\\xc3\\xa9') == u'caf\\xe9'\""
+    }
+  ]
+}

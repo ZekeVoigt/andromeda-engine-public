@@ -1,0 +1,40 @@
+{
+  "on": "inputs",
+  "checks": [
+    {
+      "name": "clean-parses",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/exists_parses.py out/clean.csv --format csv"
+    },
+    {
+      "name": "clean-no-blanks",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/csv_no_blanks.py out/clean.csv name email amount"
+    },
+    {
+      "name": "clean-total",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/csv_total.py out/clean.csv amount 25.50"
+    },
+    {
+      "name": "summary-shape",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/json_schema.py out/summary.json '{\"type\": \"object\", \"required\": [\"rows\", \"total\", \"names\"], \"additionalProperties\": false, \"properties\": {\"rows\": {\"type\": \"integer\", \"enum\": [3]}, \"total\": {\"type\": \"number\", \"enum\": [25.5]}, \"names\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 3, \"maxItems\": 3}}}'"
+    },
+    {
+      "name": "report-headings",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/md_headings.py out/report.md Summary Totals"
+    },
+    {
+      "name": "report-is-text",
+      "expect": "change",
+      "run": "python3 -I /outcome_checks/outcome_templates/exists_parses.py out/report.md --format text"
+    },
+    {
+      "name": "raw-unchanged",
+      "expect": "keep",
+      "run": "python3 -I /outcome_checks/outcome_templates/unchanged.py raw.csv=3fa4d37751ccfdca9a437d88b977ee0261b4503872ea4fc0a07db0a50c902bca"
+    }
+  ]
+}

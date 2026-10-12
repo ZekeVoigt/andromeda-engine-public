@@ -1,0 +1,25 @@
+diff --git a/lib/ansible/module_utils/common/text/slugify.py b/lib/ansible/module_utils/common/text/slugify.py
+new file mode 100644
+index 0000000000..d13f101b8b
+--- /dev/null
++++ b/lib/ansible/module_utils/common/text/slugify.py
+@@ -0,0 +1,19 @@
++# -*- coding: utf-8 -*-
++# Copyright: Contributors to the Ansible project
++# GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
++"""A URL- and filename-safe form of a text string."""
++
++from __future__ import (absolute_import, division, print_function)
++__metaclass__ = type
++
++import re
++import unicodedata
++
++_NOT_ALNUM = re.compile(r'[^a-z0-9]+')
++
++
++def slugify(text, separator='-'):
++    """Lowercase ``text``, fold accented letters to ASCII, and join each run of letters and
++    digits with ``separator``, dropping any at either end."""
++    folded = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
++    return _NOT_ALNUM.sub(separator, folded.lower()).strip(separator)

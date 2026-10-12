@@ -1,0 +1,16 @@
+Clean the messy spreadsheet export raw.csv (in /app) into a small set of result files.
+
+1. out/clean.csv -- the rows of raw.csv, cleaned:
+   - keep the header exactly: name,email,amount
+   - drop the trailing TOTAL line
+   - drop exact duplicate rows (keep the first)
+   - drop every row whose email is blank
+   - strip surrounding whitespace from every field, and write amounts with two decimals
+2. out/summary.json -- one JSON object with exactly these keys: "rows" (the number of rows in
+   out/clean.csv, an integer), "total" (the sum of its amounts, a number) and "names" (its
+   names, in order, a list of strings).
+3. out/report.md -- a short Markdown report with a "# Summary" heading, then a "## Totals"
+   heading that states the total.
+4. out/chart.png -- a PNG image: a bar chart of amount by name.
+
+Do not edit raw.csv: it must stay byte for byte as it is.

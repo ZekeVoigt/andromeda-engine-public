@@ -1,0 +1,20 @@
+diff --git a/lib/ansible/module_utils/common/text/slugify.py b/lib/ansible/module_utils/common/text/slugify.py
+new file mode 100644
+index 0000000000..65730e4a5b
+--- /dev/null
++++ b/lib/ansible/module_utils/common/text/slugify.py
+@@ -0,0 +1,14 @@
++# -*- coding: utf-8 -*-
++# Copyright: Contributors to the Ansible project
++# GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
++"""A URL- and filename-safe form of a text string."""
++
++from __future__ import (absolute_import, division, print_function)
++__metaclass__ = type
++
++import re
++
++
++def slugify(text, separator='-'):
++    """Join each run of word characters in ``text`` with ``separator``."""
++    return re.sub(r'\W+', separator, text).strip(separator)

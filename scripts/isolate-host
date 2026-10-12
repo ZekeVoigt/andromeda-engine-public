@@ -1,0 +1,115 @@
+#!/usr/bin/env bash
+# Make this Linux Docker host an ISOLATED HOST (spec 14): gVisor's `runsc`, at a pinned release,
+# as dockerd's default runtime. Run ON the host, as a sudoer, before `OUTCOME_ISOLATION=required`.
+#
+#   scripts/isolate-host          # idempotent: prints "already isolated" when nothing changed
+#
+# - The release is pinned by the sha256 of its tarball, and of the two binaries inside it that
+#   a sandbox needs: runsc, and the gvisor_sentry sidecar it spawns from gvisor-bin/ beside
+#   itself (measured: without gvisor-bin/ every runsc start fails, "sidecar gvisor_sentry not
+#   usable"). A mismatch exits non-zero before /etc/docker/daemon.json is touched
+#   (bootstrap.py's rule).
+# - daemon.json is written whole, from this file, so its bytes are the posture. dockerd is
+#   RELOADED (SIGHUP), never restarted: `runtimes` and `default-runtime` are reloadable, and a
+#   reload keeps every running container -- a restart would kill a suite holding boxes.
+# - It is the only place the VM's host network configuration is written (see the end).
+set -euo pipefail
+
+RELEASE=20260914.0
+TARBALL_SHA256=94a1b9716797efcb0b348fc3283ddaa1ee5c7898b61eeccb08ee9ac7dc903c15
+RUNSC_SHA256=c0f4ec0ac1198975d5cf919a78f2302426de096f69eebd33e50125c3ca42d699
+SENTRY_SHA256=aff3ed7dfac54b04aab14de2dde53e021402f0ba238bc7ece3ac7d4b6604b055
+URL="https://storage.googleapis.com/gvisor/releases/release/$RELEASE/x86_64/gvisor.tar.bz2"
+RUNSC=/usr/local/bin/runsc
+SIDECARS=/usr/local/bin/gvisor-bin
+DAEMON_JSON=/etc/docker/daemon.json
+
+say() { echo "isolate-host: $*" >&2; }
+
+[[ $# -eq 0 ]] || { say "takes no arguments"; exit 2; }
+
+[[ "$(uname -m)" == x86_64 ]] || { say "gVisor is pinned for x86_64; this is $(uname -m)"; exit 1; }
+
+changed=0
+
+# --- runsc and its sidecars, pinned -------------------------------------------------------
+sha() { sha256sum "$1" 2>/dev/null | cut -d' ' -f1 || true; }
+if [[ "$(sha "$RUNSC")" != "$RUNSC_SHA256" || "$(sha "$SIDECARS/gvisor_sentry")" != "$SENTRY_SHA256" ]]; then
+  tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
+  say "installing runsc $RELEASE"
+  curl -fsSL -o "$tmp/gvisor.tar.bz2" "$URL"
+  got=$(sha256sum "$tmp/gvisor.tar.bz2" | cut -d' ' -f1)
+  if [[ "$got" != "$TARBALL_SHA256" ]]; then
+    say "tarball sha256 $got != pinned $TARBALL_SHA256 -- refusing, nothing changed"; exit 1
+  fi
+  # python3, not tar -j: the VM's Ubuntu image ships no bzip2
+  mkdir "$tmp/x"
+  python3 -c 'import sys,tarfile; tarfile.open(sys.argv[1]).extractall(sys.argv[2], filter="data")' \
+    "$tmp/gvisor.tar.bz2" "$tmp/x"
+  for pair in "runsc:$RUNSC_SHA256" "gvisor-bin/gvisor_sentry:$SENTRY_SHA256"; do
+    got=$(sha "$tmp/x/${pair%%:*}")
+    if [[ "$got" != "${pair#*:}" ]]; then
+      say "${pair%%:*} sha256 $got != pinned ${pair#*:} -- refusing, nothing changed"; exit 1
+    fi
+  done
+  sudo install -d -m 755 "$SIDECARS"
+  sudo install -m 755 "$tmp/x/gvisor-bin/"* "$SIDECARS/"
+  sudo install -m 755 "$tmp/x/runsc" "$RUNSC"
+  changed=1
+fi
+
+# --- daemon.json --------------------------------------------------------------------------
+# --host-uds=open: the enforced egress topology hands an agent role its broker and proxy as
+# Unix sockets bind-mounted read-only (runtime/egress.py); runsc refuses host-socket connects
+# without it. `open` lets a sandbox connect to a socket it was given, never create one.
+want="{
+  \"default-runtime\": \"runsc\",
+  \"runtimes\": {
+    \"runsc\": {
+      \"path\": \"$RUNSC\",
+      \"runtimeArgs\": [\"--host-uds=open\"]
+    }
+  }
+}"
+if [[ "$(sudo cat "$DAEMON_JSON" 2>/dev/null || true)" != "$want" ]]; then
+  printf '%s\n' "$want" | sudo tee "$DAEMON_JSON.new" >/dev/null
+  sudo mv "$DAEMON_JSON.new" "$DAEMON_JSON"
+  changed=1
+fi
+
+expect=runsc
+if [[ "$changed" == 1 || "$(docker info --format '{{.DefaultRuntime}}')" != "$expect" ]]; then
+  sudo systemctl reload docker
+  for _ in $(seq 1 30); do
+    [[ "$(docker info --format '{{.DefaultRuntime}}' 2>/dev/null)" == "$expect" ]] && break
+    sleep 1
+  done
+  got=$(docker info --format '{{.DefaultRuntime}}')
+  [[ "$got" == "$expect" ]] || { say "dockerd reports default runtime $got, not $expect"; exit 1; }
+  changed=1
+fi
+
+# --- the host network configuration -------------------------------------------------------
+# KEPT, and now written here rather than by hand: `route_localnet` on docker0 plus a DNAT of
+# docker0's gateway to 127.0.0.1. On Linux that is what lets a container on the default bridge
+# reach a host listener bound to 127.0.0.1 through `host-gateway`. Its users are the real
+# broker tests (tests/test_broker.py, `network="bridge"` + `host-gateway`, by name) and E03's
+# advisory topology on a shared-kernel posture. No production container uses docker0 on an
+# isolated host: the plain roles and the grader are `none`, and the agent roles reach their
+# broker and proxy through forwarded sockets, so this reaches no production traffic.
+if [[ "$(sysctl -n net.ipv4.conf.docker0.route_localnet)" != 1 ]]; then
+  sudo sysctl -q -w net.ipv4.conf.docker0.route_localnet=1
+  changed=1
+fi
+gw=$(docker network inspect bridge --format '{{(index .IPAM.Config 0).Gateway}}')
+rule=(PREROUTING -d "$gw/32" -i docker0 -p tcp -j DNAT --to-destination 127.0.0.1)
+if ! sudo iptables -t nat -C "${rule[@]}" 2>/dev/null; then
+  sudo iptables -t nat -A "${rule[@]}"
+  changed=1
+fi
+
+if [[ "$changed" == 0 ]]; then
+  echo "already isolated"
+else
+  echo "isolated: runsc $RELEASE, default runtime runsc"
+fi

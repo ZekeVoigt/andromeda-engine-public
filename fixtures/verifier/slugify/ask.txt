@@ -1,0 +1,12 @@
+Add a slugify() helper to ansible's text utilities.
+
+Create `lib/ansible/module_utils/common/text/slugify.py` with a function
+`slugify(text, separator='-')` that turns any text into a URL- and filename-safe slug:
+
+- lowercase the text;
+- fold accented letters to their plain ASCII form ("Café" -> "cafe");
+- replace every run of characters that are not ASCII letters or digits with `separator`;
+- drop leading and trailing separators.
+
+For example, `slugify('Hello, World!')` is `'hello-world'` and
+`slugify('a b c', separator='_')` is `'a_b_c'`. Do not change any existing module.

