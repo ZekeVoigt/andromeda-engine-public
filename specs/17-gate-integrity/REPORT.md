@@ -11,7 +11,7 @@ agent diffs.
 
 ## What the rule ignores on real diffs (AC13)
 
-`uv run python scripts/gate_integrity_scan.py --root ~/Desktop/andromeda`. `--root` points at
+`uv run python scripts/gate_integrity_scan.py --root <the main checkout>`. `--root` points at
 the main checkout, because `runs/` and `coordination/` are per-clone and a worktree has none of
 its own.
 

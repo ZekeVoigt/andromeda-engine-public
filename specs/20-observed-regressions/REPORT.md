@@ -48,7 +48,7 @@ non-adversarial case: an agent that "fixes" a failing test by editing its helper
 
 ## AC3: the scan
 
-`uv run python scripts/gate_integrity_scan.py --root ~/Desktop/andromeda`, on the build:
+`uv run python scripts/gate_integrity_scan.py --root <the main checkout>`, on the build:
 
 ```
 # ScaleAI/SWE-bench_Pro@7ab5114: 731 rows, 266 of them Python

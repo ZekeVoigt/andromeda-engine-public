@@ -13,7 +13,7 @@ stale checks two of them break.
 
 ## The scan (AC14)
 
-`uv run python scripts/in_process_scan.py --root ~/Desktop/andromeda`. `--root` points at the
+`uv run python scripts/in_process_scan.py --root <the main checkout>`. `--root` points at the
 main checkout, because `runs/` is per-clone and a worktree has none of its own.
 
 ```
@@ -70,7 +70,7 @@ main checkout, because `runs/` is per-clone and a worktree has none of its own.
   are restored. By file, 8 rows leave a selected file unrestored; they are named above. The
   spec's text carries a gap note.
 - **Re-fold:** **0 differences over 1,712 recorded log pairs** under `runs/` and
-  `~/Desktop/andromeda-world/runs/`, comparing names, statuses and order. Four `_scratch`
+  the pre-merge archive's `runs/`, comparing names, statuses and order. Four `_scratch`
   experiments were not re-folded, because no file in their run dir names a task; they are
   listed above. Invariant 4 holds on every honest recorded run.
 
